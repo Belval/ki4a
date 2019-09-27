@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="profiles">
+        <item>Perfil 1</item>
+        <item>Perfil 2</item>
+        <item>Perfil 3</item>
+        <item>Perfil 4</item>
+        <item>Perfil 5</item>
+    </string-array>
+    <string-array name="profiles_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navega a la pàgina d\'inici"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navega cap a dalt"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Més opcions"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fet"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Mostra\'ls tots"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecciona una aplicació"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESACTIVAT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVAT"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Supr"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Retorn"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Funció+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Maj+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"Espai"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menú+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Esborra la consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de cerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Envia la consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Cerca per veu"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Comparteix amb"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Comparteix amb <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Replega"</string>
+    <string name="add_widget">Afegir panell</string>
+    <string name="app_name">Ki4a</string>
+    <string name="application_log">Canvis a l\'aplicació</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> té problemes amb Serveis de Google Play. Torna-ho a provar."</string>
+    <string name="copy_log">Copiar</string>
+    <string name="email_log">Enviar per correu</string>
+    <string name="forward_dest_host">Host Destí</string>
+    <string name="forward_dest_port">P. Dest</string>
+    <string name="forward_local">Local</string>
+    <string name="forward_remote">Remot</string>
+    <string name="forward_src_port">P. Origen</string>
+    <string name="not_root_access">No es poden obtenir permisos de Root</string>
+    <string name="pref_about">Sobre...</string>
+    <string name="pref_all_traffic">Enviar todo el tràfic sobre VPN</string>
+    <string name="pref_default_dns_server">8.8.8.8</string>
+    <string name="pref_default_proxy_header"/>
+    <string name="pref_default_proxy_host"/>
+    <string name="pref_default_proxy_port">80</string>
+    <string name="pref_default_ssh_key"/>
+    <string name="pref_default_ssh_password"/>
+    <string name="pref_default_ssh_port">22</string>
+    <string name="pref_default_ssh_server"/>
+    <string name="pref_default_ssh_username"/>
+    <string name="pref_default_verify_host">http://google.com</string>
+    <string name="pref_forward">Redirecció de ports</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_specific_routes">Enviar subxarxes específiques</string>
+    <string name="pref_summary_airplane">Alternar l\'estat del mode avió per reconnectar la xarxa mòbil (Calen permisos de Root!)</string>
+    <string name="pref_summary_ask_pass"/>
+    <string name="pref_summary_autoconnect">Comenceu automàticament quan hi hagi Wi-Fi disponible</string>
+    <string name="pref_summary_cellular">Deshabilitar WiFi al connectar i fer servir l\'estat de la xarxa mòbil per reconnectar</string>
+    <string name="pref_summary_iptables">Necessita permisos de Root!</string>
+    <string name="pref_summary_key">En lloc de contrassenya</string>
+    <string name="pref_summary_proxy_header">Les capçaleres HTTP són enviades al proxy després de la capçalera CONNECT i abans del salut SSH</string>
+    <string name="pref_summary_ssh_key">Format OpenSSH</string>
+    <string name="pref_summary_verify_internet">Connexió amb un servidor HTTP</string>
+    <string name="pref_title_airplane">Encendre/Apagar mode avió</string>
+    <string name="pref_title_ask_pass">Preguntar contrassenya al connectar</string>
+    <string name="pref_title_auto_reconnect">Reconnectar automàticament</string>
+    <string name="pref_title_autoconnect">Connexió automàtica</string>
+    <string name="pref_title_cellular">Mode de xarxa de dades mòbil</string>
+    <string name="pref_title_compress">Habilitar Compressió</string>
+    <string name="pref_title_dns">Habilitar redirecció de DNS</string>
+    <string name="pref_title_dns_server">Servidor DNS (per defecte: 8.8.8.8)</string>
+    <string name="pref_title_forwarding_section">Opcions de redirecció</string>
+    <string name="pref_title_iptables">Utilitzar iptables en lloc de VPN</string>
+    <string name="pref_title_key">Utilitzar clau privada</string>
+    <string name="pref_title_notifications">Mostra notificacions</string>
+    <string name="pref_title_other_section">Altres opcions</string>
+    <string name="pref_title_proxy">Habilitar servidor proxy</string>
+    <string name="pref_title_proxy_header">Http Headers</string>
+    <string name="pref_title_proxy_host">Adreça</string>
+    <string name="pref_title_proxy_port">Port (per defecte: 80)</string>
+    <string name="pref_title_proxy_section">Proxy HTTP</string>
+    <string name="pref_title_ssh_key">Clau privada</string>
+    <string name="pref_title_ssh_password">Contrassenya</string>
+    <string name="pref_title_ssh_port">Port (per defecte: 22)</string>
+    <string name="pref_title_ssh_section">Servidor SSH</string>
+    <string name="pref_title_ssh_server">Adreça</string>
+    <string name="pref_title_ssh_username">Usuari</string>
+    <string name="pref_title_verify_host">Servidor de comprovació de connectivitat</string>
+    <string name="pref_title_verify_internet">Verificar la connectivitat a Internet</string>
+    <string name="profile">Perfil</string>
+    <string name="refresh_log">Actualitzar</string>
+    <string name="route_prefix_text">Longitud prefix</string>
+    <string name="route_text">Ruta (e.g. 0.0.0.0)</string>
+    <string msgid="368094699078615544" name="s1">"Desa la imatge"</string>
+    <string msgid="4550830452390689489" name="s2">"Vols permetre que l\'anunci desi imatges a la galeria d\'imatges?"</string>
+    <string msgid="2435407834265420668" name="s3">"Accepta"</string>
+    <string msgid="9167523597401839819" name="s4">"Rebutja"</string>
+    <string msgid="1566682516266724847" name="s5">"Crea un esdeveniment de calendari"</string>
+    <string msgid="5996672174517137271" name="s6">"Vols permetre que l\'anunci creï un esdeveniment de calendari?"</string>
+    <string msgid="7163549807207034258" name="s7">"Anunci de prova"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Cerca"</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="str_config">Estat</string>
+    <string name="str_connect">Connectar</string>
+    <string name="str_failed_to_connect">Error al connectar</string>
+    <string name="str_import">Importar</string>
+    <string name="str_incorrect_password">Contrassenya incorrecta</string>
+    <string name="str_key_passphrase">Paraula de pas de la clau privada</string>
+    <string name="text_status_connected">Connectat</string>
+    <string name="text_status_connecting">Connectant...</string>
+    <string name="text_status_disconnected">Desconnectat</string>
+    <string name="text_status_empty"/>
+    <string name="text_status_initializing">Iniciant...</string>
+    <string name="text_status_reconnecting">Reconnectant...</string>
+    <string name="title_activity_settings">Preferències</string>
+</resources>

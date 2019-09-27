@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="profiles">
+        <item>轮廓 1</item>
+        <item>轮廓 2</item>
+        <item>轮廓 3</item>
+        <item>轮廓 4</item>
+        <item>轮廓 5</item>
+    </string-array>
+    <string-array name="profiles_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="add_widget">Add widget</string>
+    <string name="app_name">Ki4a</string>
+    <string name="application_log">应用程序日志</string>
+    <string name="copy_log">复制</string>
+    <string name="email_log">发电子邮件</string>
+    <string name="forward_dest_host">目标主机</string>
+    <string name="forward_dest_port">目的端口</string>
+    <string name="forward_local">本地</string>
+    <string name="forward_remote">远程</string>
+    <string name="forward_src_port">源端口</string>
+    <string name="not_root_access">无法获得root权限</string>
+    <string name="pref_about">关于</string>
+    <string name="pref_all_traffic">发送所有流量通过VPN</string>
+    <string name="pref_default_dns_server">8.8.8.8</string>
+    <string name="pref_default_proxy_header"/>
+    <string name="pref_default_proxy_host"/>
+    <string name="pref_default_proxy_port">80</string>
+    <string name="pref_default_ssh_key"/>
+    <string name="pref_default_ssh_password"/>
+    <string name="pref_default_ssh_port">22</string>
+    <string name="pref_default_ssh_server"/>
+    <string name="pref_default_ssh_username"/>
+    <string name="pref_default_verify_host">http://www.baidu.com/</string>
+    <string name="pref_forward">转发端口</string>
+    <string name="pref_header_general">综合</string>
+    <string name="pref_specific_routes">路线特定子网</string>
+    <string name="pref_summary_airplane">切换飞行模式来重新连接蜂窝网络（需要root权限）</string>
+    <string name="pref_summary_ask_pass"/>
+    <string name="pref_summary_autoconnect">WiFi可用时自动启动</string>
+    <string name="pref_summary_cellular">自动关闭WIFI 并且使用蜂窝网络重新连接</string>
+    <string name="pref_summary_iptables">需要root权限</string>
+    <string name="pref_summary_key">不使用密码</string>
+    <string name="pref_summary_proxy_header">Http 头会在连接之后，SSH握手之前被发送到代理</string>
+    <string name="pref_summary_ssh_key">OpenSSH格式</string>
+    <string name="pref_summary_verify_internet">连接到HTTP服务器</string>
+    <string name="pref_title_airplane">切换飞行模式</string>
+    <string name="pref_title_ask_pass">连接时询问密码</string>
+    <string name="pref_title_auto_reconnect">自动重连</string>
+    <string name="pref_title_autoconnect">自动连接</string>
+    <string name="pref_title_cellular">蜂窝数据模式</string>
+    <string name="pref_title_compress">启动压缩</string>
+    <string name="pref_title_dns">启用DNS转发</string>
+    <string name="pref_title_dns_server">DNS服务器 (默认: 8.8.8.8)</string>
+    <string name="pref_title_forwarding_section">转发选项</string>
+    <string name="pref_title_iptables">使用iptables，不使用VPN</string>
+    <string name="pref_title_key">使用个人密钥</string>
+    <string name="pref_title_notifications">Display notifications</string>
+    <string name="pref_title_other_section">其他选择</string>
+    <string name="pref_title_proxy">启动 HTTP 代理</string>
+    <string name="pref_title_proxy_header">Http头</string>
+    <string name="pref_title_proxy_host">地址</string>
+    <string name="pref_title_proxy_port">端口 (默认: 80)</string>
+    <string name="pref_title_proxy_section">HTTP 代理</string>
+    <string name="pref_title_ssh_key">个人密钥</string>
+    <string name="pref_title_ssh_password">密码</string>
+    <string name="pref_title_ssh_port">端口 (默认: 22)</string>
+    <string name="pref_title_ssh_section">SSH 服务器</string>
+    <string name="pref_title_ssh_server">地址</string>
+    <string name="pref_title_ssh_username">用户名</string>
+    <string name="pref_title_verify_host">连接服务器检查</string>
+    <string name="pref_title_verify_internet">验证Internet连接</string>
+    <string name="profile">轮廓</string>
+    <string name="refresh_log">刷新</string>
+    <string name="route_prefix_text">前缀长度</string>
+    <string name="route_text">路线 (e.g. 0.0.0.0)</string>
+    <string name="str_config">状态</string>
+    <string name="str_connect">连</string>
+    <string name="str_failed_to_connect">连接失败</string>
+    <string name="str_import">进口</string>
+    <string name="str_incorrect_password">密码不正确</string>
+    <string name="str_key_passphrase">私钥密码</string>
+    <string name="text_status_connected">已连接</string>
+    <string name="text_status_connecting">连接中...</string>
+    <string name="text_status_disconnected">已断连</string>
+    <string name="text_status_empty"/>
+    <string name="text_status_initializing">初始化中...</string>
+    <string name="text_status_reconnecting">重新连接中...</string>
+    <string name="title_activity_settings">设置</string>
+</resources>
