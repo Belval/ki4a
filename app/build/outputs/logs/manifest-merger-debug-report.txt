@@ -1,22 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-113:12
-INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-113:12
-INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-113:12
-INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-113:12
-MERGED from [com.google.android.gms:play-services-ads:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/edbf4c5fd3c6f01b0472da9bcce293d7/jetified-play-services-ads-18.2.0/AndroidManifest.xml:17:1-25:12
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-114:12
 MERGED from [com.google.android.material:material:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.browser:browser:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/d52aa75563c2cc8edb955a24f2134bd9/browser-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:17:1-42:12
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:17:1-55:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/1a5fa59d48c27af0a9b5ae63c8c95057/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/0412f5d20d8cfb1c41e8a5fa9def596b/play-services-measurement-impl-17.0.0/AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/b92b4e973a3cc9797495cecbf4428051/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-gass:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/4822a0d8a74892d82f1489d2ba1e851c/play-services-gass-18.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/f037b9f5661cb15cb41f4c9dfd1988cd/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/a47d9206ab1f04222e4cb7490881e1be/play-services-measurement-base-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/8eabc4133e0efd1d464d5527e9d321db/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/a7c32dbcd74f11ba2ca546f09a4071ab/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/4f37a040d795d0eef135b10b20545e3f/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/bbc51c53aec70aeae5178e82f15e817a/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -34,11 +22,10 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/edoua
 MERGED from [androidx.loader:loader:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/331f61861c2d3a925f2252286afb1f53/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/bbfb1dc3f77ef69d606795da69c218f5/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2ffb88316df49107418be0872d7babe4/core-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-ads-base:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/7c85d932fdd660d1988a82026aa42505/play-services-ads-base-18.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/ccc4f60e4549c263b614feec2a027fa2/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/d4ef17d609918d2a5f5a86d1ea02678f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/684c19030ab34291fff8f6b761838da8/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/d4ef17d609918d2a5f5a86d1ea02678f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/aa91d8d2653c363bbd5da9d9892260d3/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9d52be8c254a228a91eaf05f51d52923/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9093771a98b01557e81860f4122d7892/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -47,311 +34,247 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/edouard/.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/420f294924962582b4c42c622af43461/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/66e997bde0b6ece28f7fd36f5f4a1584/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/8787729f29cf7add1bc29c81caccddfd/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-113:12
-INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-113:12
-INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-113:12
+INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-114:12
 	package
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:4:5-30
 		INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
 		INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-113:12
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-114:12
 		INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-113:12
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-114:12
 		INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:11-69
-meta-data#com.google.android.gms.version
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:6:5-7:64
-	android:value
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:7:9-62
-	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:6:16-61
 uses-permission#android.permission.INTERNET
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:9:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/0412f5d20d8cfb1c41e8a5fa9def596b/play-services-measurement-impl-17.0.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/0412f5d20d8cfb1c41e8a5fa9def596b/play-services-measurement-impl-17.0.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/f037b9f5661cb15cb41f4c9dfd1988cd/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/f037b9f5661cb15cb41f4c9dfd1988cd/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:9:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:10:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/0412f5d20d8cfb1c41e8a5fa9def596b/play-services-measurement-impl-17.0.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/0412f5d20d8cfb1c41e8a5fa9def596b/play-services-measurement-impl-17.0.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/f037b9f5661cb15cb41f4c9dfd1988cd/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/f037b9f5661cb15cb41f4c9dfd1988cd/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:24:5-79
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:10:22-76
 uses-permission#android.permission.CHANGE_NETWORK_STATE
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:11:22-76
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:12:5-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:12:5-77
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:12:22-73
-uses-permission#android.permission.CHANGE_WIFI_STATE
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:12:22-74
+uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:13:5-76
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:14:22-73
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:14:5-80
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:15:5-80
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:14:22-77
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:15:22-77
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:15:5-75
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:16:5-75
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:15:22-72
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:16:22-72
 application
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:17:5-112:19
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:18:5-113:19
 MERGED from [com.google.android.material:material:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:26:5-40:19
-MERGED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:26:5-40:19
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/1a5fa59d48c27af0a9b5ae63c8c95057/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/1a5fa59d48c27af0a9b5ae63c8c95057/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/0412f5d20d8cfb1c41e8a5fa9def596b/play-services-measurement-impl-17.0.0/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/0412f5d20d8cfb1c41e8a5fa9def596b/play-services-measurement-impl-17.0.0/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/b92b4e973a3cc9797495cecbf4428051/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/b92b4e973a3cc9797495cecbf4428051/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-gass:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/4822a0d8a74892d82f1489d2ba1e851c/play-services-gass-18.2.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-gass:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/4822a0d8a74892d82f1489d2ba1e851c/play-services-gass-18.2.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/f037b9f5661cb15cb41f4c9dfd1988cd/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/f037b9f5661cb15cb41f4c9dfd1988cd/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/a47d9206ab1f04222e4cb7490881e1be/play-services-measurement-base-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/a47d9206ab1f04222e4cb7490881e1be/play-services-measurement-base-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/8eabc4133e0efd1d464d5527e9d321db/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/8eabc4133e0efd1d464d5527e9d321db/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/a7c32dbcd74f11ba2ca546f09a4071ab/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/a7c32dbcd74f11ba2ca546f09a4071ab/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2ffb88316df49107418be0872d7babe4/core-1.0.0/AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2ffb88316df49107418be0872d7babe4/core-1.0.0/AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-ads-base:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/7c85d932fdd660d1988a82026aa42505/play-services-ads-base-18.2.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-ads-base:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/7c85d932fdd660d1988a82026aa42505/play-services-ads-base-18.2.0/AndroidManifest.xml:7:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2ffb88316df49107418be0872d7babe4/core-1.0.0/AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:22:9-35
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:23:9-35
 	android:label
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:20:9-41
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:21:9-41
 	android:persistent
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:21:9-34
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:22:9-34
 	android:icon
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:19:9-43
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:20:9-43
 	android:allowBackup
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:18:9-35
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:23:9-40
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:24:9-40
 activity#com.belval.ki4a.SplashScreenActivity
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:24:9-32:20
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:25:9-33:20
 	android:label
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:26:13-45
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:27:13-45
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:25:13-49
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:26:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:27:13-31:29
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:28:17-69
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:30:17-77
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:30:27-74
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:31:27-74
 activity#com.belval.ki4a.MainActivity
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:33:9-35:48
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:34:9-36:48
 	android:label
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:35:13-45
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:36:13-45
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:34:13-41
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:35:13-41
 activity#com.belval.ki4a.SettingsActivity
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:36:9-38:63
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:37:9-39:63
 	android:label
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:38:13-60
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:39:13-60
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:37:13-45
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:38:13-45
 activity#com.belval.ki4a.ForwardActivity
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:39:9-42:55
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:40:9-43:55
 	android:label
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:41:13-49
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:42:13-49
 	android:windowSoftInputMode
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:42:13-52
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:43:13-52
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:40:13-44
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:41:13-44
 activity#com.belval.ki4a.RouteActivity
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:43:9-46:55
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:44:9-47:55
 	android:label
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:45:13-57
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:46:13-57
 	android:windowSoftInputMode
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:46:13-52
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:47:13-52
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:44:13-42
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:45:13-42
 service#com.belval.ki4a.ki4aService
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:48:9-50:38
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:49:9-51:38
 	android:enabled
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:50:13-35
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:51:13-35
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:49:13-40
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:50:13-40
 service#com.belval.ki4a.ki4aVPNService
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:51:9-59:19
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:52:9-60:19
 	android:label
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:54:13-45
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:55:13-45
 	android:exported
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:53:13-37
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:54:13-37
 	android:permission
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:55:13-69
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:56:13-69
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:52:13-43
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:53:13-43
 intent-filter#action:name:android.net.VpnService
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:56:13-58:29
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:57:13-59:29
 action#android.net.VpnService
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:57:17-65
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:58:17-65
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:57:25-62
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:58:25-62
 receiver#com.belval.ki4a.ki4aUpdateReceiver
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:61:9-65:20
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:62:9-66:20
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:61:19-53
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:62:19-53
 intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:62:13-64:29
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:63:13-65:29
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:63:17-84
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:64:17-84
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:63:25-81
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:64:25-81
 activity#com.belval.ki4a.AboutActivity
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:67:9-69:50
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:68:9-70:50
 	android:label
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:69:13-47
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:70:13-47
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:68:13-42
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:69:13-42
 activity#com.belval.ki4a.ShowLogActivity
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:70:9-72:55
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:71:9-73:55
 	android:label
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:72:13-52
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:73:13-52
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:71:13-44
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:72:13-44
 activity#com.belval.ki4a.KeyImport
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:73:9-75:46
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:74:9-76:46
 	android:launchMode
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:75:13-43
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:76:13-43
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:74:13-38
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:75:13-38
 receiver#com.belval.ki4a.ki4aWidget
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:77:9-88:20
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:78:9-89:20
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:77:19-45
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:78:19-45
 intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:78:13-80:29
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:79:13-81:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:79:17-84
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:80:17-84
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:79:25-81
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:80:25-81
 intent-filter#action:name:ki4aRefresh
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:81:13-83:29
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:82:13-84:29
 action#ki4aRefresh
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:82:17-53
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:83:17-53
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:82:25-51
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:83:25-51
 meta-data#android.appwidget.provider
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:85:13-87:60
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:86:13-88:60
 	android:resource
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:87:17-57
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:88:17-57
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:86:17-58
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:87:17-58
 receiver#com.belval.ki4a.ki4aBroadcastReceiver
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:90:9-97:20
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:91:9-98:20
 	android:enabled
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:90:57-79
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:91:57-79
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:90:19-56
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:91:19-56
 intent-filter#action:name:android.net.wifi.STATE_CHANGE+action:name:ki4aStatusStart+action:name:ki4aStatusStop+action:name:ki4aStatusToggle
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:91:13-96:29
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:92:13-97:29
 action#ki4aStatusToggle
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:92:17-59
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:93:17-59
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:92:25-56
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:93:25-56
 action#ki4aStatusStart
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:93:17-58
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:94:17-58
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:93:25-55
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:94:25-55
 action#ki4aStatusStop
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:94:17-57
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:95:17-57
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:94:25-54
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:95:25-54
 action#android.net.wifi.STATE_CHANGE
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:95:17-72
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:96:17-72
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:95:25-69
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:96:25-69
 service#com.belval.ki4a.ki4aQuickSettingsService
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:99:9-110:19
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:100:9-111:19
 	android:label
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:102:13-45
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:103:13-45
 	android:permission
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:103:13-77
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:104:13-77
 	android:icon
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:101:13-55
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:102:13-55
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:100:13-53
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:101:13-53
 intent-filter#action:name:android.service.quicksettings.action.QS_TILE
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:104:13-106:29
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:105:13-107:29
 action#android.service.quicksettings.action.QS_TILE
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:105:17-87
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:106:17-87
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:105:25-84
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:106:25-84
 meta-data#android.service.quicksettings.ACTIVE_TILE
-ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:107:13-109:40
+ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:108:13-110:40
 	android:value
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:109:17-37
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:110:17-37
 	android:name
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:108:17-73
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:109:17-73
 uses-sdk
 INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
 INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.gms:play-services-ads:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/edbf4c5fd3c6f01b0472da9bcce293d7/jetified-play-services-ads-18.2.0/AndroidManifest.xml:21:5-23:52
-MERGED from [com.google.android.gms:play-services-ads:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/edbf4c5fd3c6f01b0472da9bcce293d7/jetified-play-services-ads-18.2.0/AndroidManifest.xml:21:5-23:52
 MERGED from [com.google.android.material:material:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/d52aa75563c2cc8edb955a24f2134bd9/browser-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/d52aa75563c2cc8edb955a24f2134bd9/browser-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/1a5fa59d48c27af0a9b5ae63c8c95057/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/1a5fa59d48c27af0a9b5ae63c8c95057/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/0412f5d20d8cfb1c41e8a5fa9def596b/play-services-measurement-impl-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/0412f5d20d8cfb1c41e8a5fa9def596b/play-services-measurement-impl-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/b92b4e973a3cc9797495cecbf4428051/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/b92b4e973a3cc9797495cecbf4428051/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gass:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/4822a0d8a74892d82f1489d2ba1e851c/play-services-gass-18.2.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-gass:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/4822a0d8a74892d82f1489d2ba1e851c/play-services-gass-18.2.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/f037b9f5661cb15cb41f4c9dfd1988cd/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/f037b9f5661cb15cb41f4c9dfd1988cd/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/a47d9206ab1f04222e4cb7490881e1be/play-services-measurement-base-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/a47d9206ab1f04222e4cb7490881e1be/play-services-measurement-base-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/8eabc4133e0efd1d464d5527e9d321db/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/8eabc4133e0efd1d464d5527e9d321db/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/a7c32dbcd74f11ba2ca546f09a4071ab/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/a7c32dbcd74f11ba2ca546f09a4071ab/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/4f37a040d795d0eef135b10b20545e3f/fragment-1.0.0/AndroidManifest.xml:20:5-44
@@ -386,16 +309,14 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/edouard/.gradle
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/bbfb1dc3f77ef69d606795da69c218f5/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2ffb88316df49107418be0872d7babe4/core-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2ffb88316df49107418be0872d7babe4/core-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/7c85d932fdd660d1988a82026aa42505/play-services-ads-base-18.2.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/7c85d932fdd660d1988a82026aa42505/play-services-ads-base-18.2.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/ccc4f60e4549c263b614feec2a027fa2/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/ccc4f60e4549c263b614feec2a027fa2/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/d4ef17d609918d2a5f5a86d1ea02678f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/d4ef17d609918d2a5f5a86d1ea02678f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/07608d1ce0a2b5e25216bbe877b06158/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/684c19030ab34291fff8f6b761838da8/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/684c19030ab34291fff8f6b761838da8/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/d4ef17d609918d2a5f5a86d1ea02678f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/d4ef17d609918d2a5f5a86d1ea02678f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/aa91d8d2653c363bbd5da9d9892260d3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/aa91d8d2653c363bbd5da9d9892260d3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9d52be8c254a228a91eaf05f51d52923/documentfile-1.0.0/AndroidManifest.xml:20:5-44
@@ -414,8 +335,6 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/edouard/.gradle/caches
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/8787729f29cf7add1bc29c81caccddfd/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
 INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.google.android.gms:play-services-ads:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/edbf4c5fd3c6f01b0472da9bcce293d7/jetified-play-services-ads-18.2.0/AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
 		INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
@@ -424,85 +343,3 @@ INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
 		INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
 		INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
-activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:29:9-33:64
-	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:32:13-37
-	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:31:13-122
-	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:33:13-61
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:30:13-65
-provider#com.google.android.gms.ads.MobileAdsInitProvider
-ADDED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:35:9-39:39
-	android:authorities
-		ADDED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:37:13-73
-	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:38:13-37
-	android:initOrder
-		ADDED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:39:13-36
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:36:13-76
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/0412f5d20d8cfb1c41e8a5fa9def596b/play-services-measurement-impl-17.0.0/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/0412f5d20d8cfb1c41e8a5fa9def596b/play-services-measurement-impl-17.0.0/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/f037b9f5661cb15cb41f4c9dfd1988cd/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/f037b9f5661cb15cb41f4c9dfd1988cd/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:25:5-68
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:25:22-65
-uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/0412f5d20d8cfb1c41e8a5fa9def596b/play-services-measurement-impl-17.0.0/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/0412f5d20d8cfb1c41e8a5fa9def596b/play-services-measurement-impl-17.0.0/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/f037b9f5661cb15cb41f4c9dfd1988cd/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/f037b9f5661cb15cb41f4c9dfd1988cd/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:26:5-110
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:26:22-107
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:29:9-33:20
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:31:13-35
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:32:13-37
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:30:13-85
-receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:34:9-42:20
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/0412f5d20d8cfb1c41e8a5fa9def596b/play-services-measurement-impl-17.0.0/AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/0412f5d20d8cfb1c41e8a5fa9def596b/play-services-measurement-impl-17.0.0/AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/f037b9f5661cb15cb41f4c9dfd1988cd/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/f037b9f5661cb15cb41f4c9dfd1988cd/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:29:9-37:20
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:36:13-35
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:37:13-36
-	android:permission
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:38:13-69
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:35:13-100
-intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:39:13-41:29
-action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:40:17-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:40:25-76
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:44:9-47:40
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:46:13-35
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:47:13-37
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:45:13-84
-service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:48:9-52:72
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:50:13-35
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:51:13-37
-	android:permission
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:52:13-69
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:49:13-87

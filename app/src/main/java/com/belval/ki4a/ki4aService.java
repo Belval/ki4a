@@ -1,5 +1,7 @@
 package com.belval.ki4a;
 
+import android.app.Notification;
+import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
@@ -8,11 +10,13 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.net.wifi.WifiManager;
+import android.os.Build;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 import android.telephony.TelephonyManager;
 import android.widget.Toast;
 import android.content.SharedPreferences;
@@ -370,14 +374,7 @@ public class ki4aService extends Service {
         else if(toState==Util.STATUS_SOCKS) // We received a connect
         {
             first_connect = true; // Reset flag for first connect notification
-            notification.setContentText(getString(R.string.text_status_connecting));
-            Resources res = getResources();
-            Bitmap bm = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(res, R.drawable.status_orange_96),
-                    (int) res.getDimension(android.R.dimen.notification_large_icon_height),
-                    (int) res.getDimension(android.R.dimen.notification_large_icon_width), false);
-            notification.setLargeIcon(bm);
-
-            startForeground(NOTIFICATION_ID, notification.build());
+            startMyOwnForeground();
             start_socks();
         }
 
@@ -569,5 +566,25 @@ public class ki4aService extends Service {
                 notificationManager.cancel(notifyId);
             }
         }
+    }
+
+    private void startMyOwnForeground(){
+        String NOTIFICATION_CHANNEL_ID = "com.belval.ki4a";
+        String channelName = "Ki4a Background Service";
+        NotificationChannel chan = new NotificationChannel(NOTIFICATION_CHANNEL_ID, channelName, NotificationManager.IMPORTANCE_NONE);
+        chan.setLightColor(Color.BLUE);
+        chan.setLockscreenVisibility(Notification.VISIBILITY_PRIVATE);
+        NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        assert manager != null;
+        manager.createNotificationChannel(chan);
+
+        NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID);
+        Notification notification = notificationBuilder.setOngoing(true)
+                .setSmallIcon(R.drawable.status_blue)
+                .setContentTitle("App is running in background")
+                .setPriority(NotificationManager.IMPORTANCE_MIN)
+                .setCategory(Notification.CATEGORY_SERVICE)
+                .build();
+        startForeground(NOTIFICATION_ID, notification);
     }
 }

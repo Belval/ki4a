@@ -34,7 +34,7 @@
         android:textColor="#000000"
         android:background="@color/colorTransparent"/>
 
-    <com.adclient.android.sdk.view.AdClientView
+    <!--<com.adclient.android.sdk.view.AdClientView
         android:id="@+id/adClientView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -45,6 +45,6 @@
         app:viewBackground="#80000000"
         app:adServerUrl ="http://appservestar.com/"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"/>-->
 
 </RelativeLayout>

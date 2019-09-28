@@ -5,310 +5,229 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
+8        android:minSdkVersion="26"
 8-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="28" />
 9-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
 10
-11    <meta-data
-11-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:6:5-7:64
-12        android:name="com.google.android.gms.version"
-12-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:6:16-61
-13        android:value="@integer/google_play_services_version" />
-13-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:7:9-62
-14
-15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:9:5-67
-15-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:9:22-64
-16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:10:5-79
-16-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:10:22-76
-17    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-17-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:11:5-79
-17-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:11:22-76
-18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-18-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:12:5-76
-18-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:12:22-73
-19    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-19-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:13:5-76
-19-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:13:22-73
-20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-20-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:14:5-80
-20-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:14:22-77
-21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-21-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:15:5-75
-21-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:15:22-72
-22    <uses-permission android:name="android.permission.WAKE_LOCK" />
-22-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:25:5-68
-22-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:25:22-65
-23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-23-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:26:5-110
-23-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:26:22-107
+11    <!--
+12        <meta-data android:name="com.google.android.gms.version"
+13        android:value="@integer/google_play_services_version"/>
+14    -->
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:9:5-67
+16-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:9:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:10:5-79
+17-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:10:22-76
+18    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+18-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:11:5-79
+18-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:11:22-76
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:12:5-77
+19-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:12:22-74
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:13:5-76
+20-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:13:22-73
+21    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+21-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:14:5-76
+21-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:14:22-73
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:15:5-80
+22-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:15:22-77
+23    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+23-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:16:5-75
+23-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:16:22-72
 24
 25    <application
-25-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:17:5-112:19
+25-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:18:5-113:19
 26        android:allowBackup="true"
-26-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:18:9-35
+26-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:19:9-35
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 27-->[androidx.core:core:1.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2ffb88316df49107418be0872d7babe4/core-1.0.0/AndroidManifest.xml:22:18-86
 28        android:debuggable="true"
 29        android:icon="@mipmap/ic_launcher"
-29-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:19:9-43
+29-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:20:9-43
 30        android:label="@string/app_name"
-30-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:20:9-41
+30-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:21:9-41
 31        android:persistent="true"
-31-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:21:9-34
+31-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:22:9-34
 32        android:supportsRtl="true"
-32-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:22:9-35
+32-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:23:9-35
 33        android:testOnly="true"
 34        android:theme="@style/AppTheme" >
-34-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:23:9-40
+34-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:24:9-40
 35        <activity
-35-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:24:9-32:20
+35-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:25:9-33:20
 36            android:name="com.belval.ki4a.SplashScreenActivity"
-36-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:25:13-49
+36-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:26:13-49
 37            android:label="@string/app_name" >
-37-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:26:13-45
+37-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:27:13-45
 38            <intent-filter>
-38-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:27:13-31:29
+38-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:28:13-32:29
 39                <action android:name="android.intent.action.MAIN" />
-39-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:28:17-69
-39-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:28:25-66
+39-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:29:17-69
+39-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:29:25-66
 40
 41                <category android:name="android.intent.category.LAUNCHER" />
-41-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:30:17-77
-41-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:30:27-74
+41-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:31:17-77
+41-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:31:27-74
 42            </intent-filter>
 43        </activity>
 44        <activity
-44-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:33:9-35:48
+44-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:34:9-36:48
 45            android:name="com.belval.ki4a.MainActivity"
-45-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:34:13-41
+45-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:35:13-41
 46            android:label="@string/app_name" />
-46-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:35:13-45
+46-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:36:13-45
 47        <activity
-47-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:36:9-38:63
+47-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:37:9-39:63
 48            android:name="com.belval.ki4a.SettingsActivity"
-48-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:37:13-45
+48-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:38:13-45
 49            android:label="@string/title_activity_settings" />
-49-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:38:13-60
+49-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:39:13-60
 50        <activity
-50-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:39:9-42:55
+50-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:40:9-43:55
 51            android:name="com.belval.ki4a.ForwardActivity"
-51-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:40:13-44
+51-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:41:13-44
 52            android:label="@string/pref_forward"
-52-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:41:13-49
+52-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:42:13-49
 53            android:windowSoftInputMode="adjustPan" />
-53-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:42:13-52
+53-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:43:13-52
 54        <activity
-54-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:43:9-46:55
+54-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:44:9-47:55
 55            android:name="com.belval.ki4a.RouteActivity"
-55-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:44:13-42
+55-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:45:13-42
 56            android:label="@string/pref_specific_routes"
-56-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:45:13-57
+56-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:46:13-57
 57            android:windowSoftInputMode="adjustPan" />
-57-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:46:13-52
+57-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:47:13-52
 58
 59        <service
-59-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:48:9-50:38
+59-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:49:9-51:38
 60            android:name="com.belval.ki4a.ki4aService"
-60-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:49:13-40
+60-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:50:13-40
 61            android:enabled="true" />
-61-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:50:13-35
+61-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:51:13-35
 62        <service
-62-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:51:9-59:19
+62-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:52:9-60:19
 63            android:name="com.belval.ki4a.ki4aVPNService"
-63-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:52:13-43
+63-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:53:13-43
 64            android:exported="false"
-64-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:53:13-37
+64-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:54:13-37
 65            android:label="@string/app_name"
-65-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:54:13-45
+65-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:55:13-45
 66            android:permission="android.permission.BIND_VPN_SERVICE" >
-66-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:55:13-69
+66-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:56:13-69
 67            <intent-filter>
-67-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:56:13-58:29
+67-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:57:13-59:29
 68                <action android:name="android.net.VpnService" />
-68-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:57:17-65
-68-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:57:25-62
+68-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:58:17-65
+68-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:58:25-62
 69            </intent-filter>
 70        </service>
 71
 72        <receiver android:name="com.belval.ki4a.ki4aUpdateReceiver" >
-72-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:61:9-65:20
-72-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:61:19-53
+72-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:62:9-66:20
+72-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:62:19-53
 73            <intent-filter>
-73-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:62:13-64:29
+73-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:63:13-65:29
 74                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-74-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:63:17-84
-74-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:63:25-81
+74-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:64:17-84
+74-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:64:25-81
 75            </intent-filter>
 76        </receiver>
 77
 78        <activity
-78-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:67:9-69:50
+78-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:68:9-70:50
 79            android:name="com.belval.ki4a.AboutActivity"
-79-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:68:13-42
+79-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:69:13-42
 80            android:label="@string/pref_about" />
-80-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:69:13-47
+80-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:70:13-47
 81        <activity
-81-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:70:9-72:55
+81-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:71:9-73:55
 82            android:name="com.belval.ki4a.ShowLogActivity"
-82-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:71:13-44
+82-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:72:13-44
 83            android:label="@string/application_log" />
-83-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:72:13-52
+83-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:73:13-52
 84        <activity
-84-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:73:9-75:46
+84-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:74:9-76:46
 85            android:name="com.belval.ki4a.KeyImport"
-85-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:74:13-38
+85-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:75:13-38
 86            android:launchMode="singleTop" />
-86-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:75:13-43
+86-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:76:13-43
 87
 88        <receiver android:name="com.belval.ki4a.ki4aWidget" >
-88-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:77:9-88:20
-88-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:77:19-45
+88-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:78:9-89:20
+88-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:78:19-45
 89            <intent-filter>
-89-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:78:13-80:29
+89-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:79:13-81:29
 90                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-90-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:79:17-84
-90-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:79:25-81
+90-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:80:17-84
+90-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:80:25-81
 91            </intent-filter>
 92            <intent-filter>
-92-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:81:13-83:29
+92-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:82:13-84:29
 93                <action android:name="ki4aRefresh" />
-93-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:82:17-53
-93-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:82:25-51
+93-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:83:17-53
+93-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:83:25-51
 94            </intent-filter>
 95
 96            <meta-data
-96-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:85:13-87:60
+96-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:86:13-88:60
 97                android:name="android.appwidget.provider"
-97-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:86:17-58
+97-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:87:17-58
 98                android:resource="@xml/ki4a_widget_info" />
-98-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:87:17-57
+98-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:88:17-57
 99        </receiver>
 100        <receiver
-100-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:90:9-97:20
+100-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:91:9-98:20
 101            android:name="com.belval.ki4a.ki4aBroadcastReceiver"
-101-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:90:19-56
+101-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:91:19-56
 102            android:enabled="true" >
-102-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:90:57-79
+102-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:91:57-79
 103            <intent-filter>
-103-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:91:13-96:29
+103-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:92:13-97:29
 104                <action android:name="ki4aStatusToggle" />
-104-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:92:17-59
-104-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:92:25-56
+104-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:93:17-59
+104-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:93:25-56
 105                <action android:name="ki4aStatusStart" />
-105-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:93:17-58
-105-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:93:25-55
+105-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:94:17-58
+105-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:94:25-55
 106                <action android:name="ki4aStatusStop" />
-106-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:94:17-57
-106-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:94:25-54
+106-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:95:17-57
+106-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:95:25-54
 107                <action android:name="android.net.wifi.STATE_CHANGE" />
-107-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:95:17-72
-107-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:95:25-69
+107-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:96:17-72
+107-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:96:25-69
 108            </intent-filter>
 109        </receiver>
 110
 111        <service
-111-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:99:9-110:19
+111-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:100:9-111:19
 112            android:name="com.belval.ki4a.ki4aQuickSettingsService"
-112-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:100:13-53
+112-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:101:13-53
 113            android:icon="@drawable/notification_icon"
-113-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:101:13-55
+113-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:102:13-55
 114            android:label="@string/app_name"
-114-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:102:13-45
+114-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:103:13-45
 115            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
-115-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:103:13-77
+115-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:104:13-77
 116            <intent-filter>
-116-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:104:13-106:29
+116-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:105:13-107:29
 117                <action android:name="android.service.quicksettings.action.QS_TILE" />
-117-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:105:17-87
-117-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:105:25-84
+117-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:106:17-87
+117-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:106:25-84
 118            </intent-filter>
 119
 120            <meta-data
-120-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:107:13-109:40
+120-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:108:13-110:40
 121                android:name="android.service.quicksettings.ACTIVE_TILE"
-121-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:108:17-73
+121-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:109:17-73
 122                android:value="true" />
-122-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:109:17-37
+122-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:110:17-37
 123        </service>
-124
-125        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-126        <activity
-126-->[com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:29:9-33:64
-127            android:name="com.google.android.gms.ads.AdActivity"
-127-->[com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:30:13-65
-128            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-128-->[com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:31:13-122
-129            android:exported="false"
-129-->[com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:32:13-37
-130            android:theme="@android:style/Theme.Translucent" />
-130-->[com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:33:13-61
-131
-132        <provider
-132-->[com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:35:9-39:39
-133            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-133-->[com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:36:13-76
-134            android:authorities="com.belval.ki4a.mobileadsinitprovider"
-134-->[com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:37:13-73
-135            android:exported="false"
-135-->[com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:38:13-37
-136            android:initOrder="100" />
-136-->[com.google.android.gms:play-services-ads-lite:18.2.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/2a103d86c78676575dde2c15963da165/play-services-ads-lite-18.2.0/AndroidManifest.xml:39:13-36
-137
-138        <receiver
-138-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:29:9-33:20
-139            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-139-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:30:13-85
-140            android:enabled="true"
-140-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:31:13-35
-141            android:exported="false" >
-141-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:32:13-37
-142        </receiver>
-143        <receiver
-143-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:34:9-42:20
-144            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-144-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:35:13-100
-145            android:enabled="true"
-145-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:36:13-35
-146            android:exported="true"
-146-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:37:13-36
-147            android:permission="android.permission.INSTALL_PACKAGES" >
-147-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:38:13-69
-148            <intent-filter>
-148-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:39:13-41:29
-149                <action android:name="com.android.vending.INSTALL_REFERRER" />
-149-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:40:17-79
-149-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:40:25-76
-150            </intent-filter>
-151        </receiver>
-152
-153        <service
-153-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:44:9-47:40
-154            android:name="com.google.android.gms.measurement.AppMeasurementService"
-154-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:45:13-84
-155            android:enabled="true"
-155-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:46:13-35
-156            android:exported="false" />
-156-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:47:13-37
-157        <service
-157-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:48:9-52:72
-158            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-158-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:49:13-87
-159            android:enabled="true"
-159-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:50:13-35
-160            android:exported="false"
-160-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:51:13-37
-161            android:permission="android.permission.BIND_JOB_SERVICE" />
-161-->[com.google.android.gms:play-services-measurement:17.0.0] /home/edouard/.gradle/caches/transforms-2/files-2.1/9b59bf2dc7a257faf6c28c5ae50bacbc/play-services-measurement-17.0.0/AndroidManifest.xml:52:13-69
-162
-163        <meta-data
-163-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:6:5-7:64
-164            android:name="com.google.android.gms.version"
-164-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:6:16-61
-165            android:value="@integer/google_play_services_version" />
-165-->/home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:7:9-62
-166    </application>
-167
-168</manifest>
+124    </application>
+125
+126</manifest>

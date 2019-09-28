@@ -15,9 +15,10 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.preference.SwitchPreference;
-import android.support.v7.app.ActionBar;
 import android.view.KeyEvent;
 import android.view.MenuItem;
+
+import androidx.appcompat.app.ActionBar;
 
 import java.io.FileOutputStream;
 import java.io.OutputStream;

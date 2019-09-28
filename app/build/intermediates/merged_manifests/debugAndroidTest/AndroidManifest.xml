@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.belval.ki4a.test">
 
-    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="28" />
 
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />

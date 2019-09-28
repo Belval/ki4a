@@ -63,10 +63,7 @@ attr actionViewClass
 attr activityChooserViewStyle
 attr adPlacementKey
 attr adServerUrl
-attr adSize
-attr adSizes
 attr adType
-attr adUnitId
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
@@ -554,10 +551,6 @@ color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
-color browser_actions_bg_grey
-color browser_actions_divider_color
-color browser_actions_text_color
-color browser_actions_title_color
 color button_material_dark
 color button_material_light
 color cardview_dark_background
@@ -739,8 +732,6 @@ dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
-dimen browser_actions_context_menu_max_width
-dimen browser_actions_context_menu_min_padding
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -1034,7 +1025,6 @@ id action_mode_close_button
 id action_text
 id actions
 id activity_chooser_view_content
-id adClientView
 id add
 id addForward
 id addRoute
@@ -1046,11 +1036,6 @@ id auto
 id beginning
 id blocking
 id bottom
-id browser_actions_header_text
-id browser_actions_menu_item_icon
-id browser_actions_menu_item_text
-id browser_actions_menu_items
-id browser_actions_menu_view
 id buttonPanel
 id center
 id center_horizontal
@@ -1230,7 +1215,6 @@ integer cancel_button_image_alpha
 integer config_tooltipAnimTime
 integer design_snackbar_text_max_lines
 integer design_tab_indicator_anim_duration_ms
-integer google_play_services_version
 integer hide_password_duration
 integer mtrl_btn_anim_delay_ms
 integer mtrl_btn_anim_duration_ms
@@ -1274,8 +1258,6 @@ layout activity_about
 layout activity_forward
 layout activity_main
 layout activity_route
-layout browser_actions_context_menu_page
-layout browser_actions_context_menu_row
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1358,7 +1340,6 @@ string application_log
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
-string common_google_play_services_unknown_issue
 string copy_log
 string email_log
 string fab_transformation_scrim_behavior
@@ -1430,13 +1411,6 @@ string profile
 string refresh_log
 string route_prefix_text
 string route_text
-string s1
-string s2
-string s3
-string s4
-string s5
-string s6
-string s7
 string search_menu_title
 string status_bar_notification_info_overflow
 string str_config
@@ -1791,7 +1765,6 @@ style Theme_Design_Light
 style Theme_Design_Light_BottomSheetDialog
 style Theme_Design_Light_NoActionBar
 style Theme_Design_NoActionBar
-style Theme_IAPTheme
 style Theme_MaterialComponents
 style Theme_MaterialComponents_BottomSheetDialog
 style Theme_MaterialComponents_Bridge
@@ -1959,7 +1932,6 @@ styleable ActionMenuItemView android_minWidth
 styleable ActionMenuView
 styleable ActionMode background backgroundSplit closeItemLayout height subtitleTextStyle titleTextStyle
 styleable ActivityChooserView expandActivityOverflowButtonDrawable initialActivityCount
-styleable AdsAttrs adSize adSizes adUnitId
 styleable AlertDialog android_layout buttonIconDimen buttonPanelSideLayout listItemLayout listLayout multiChoiceItemLayout showTitle singleChoiceItemLayout
 styleable AnimatedStateListDrawableCompat android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable AnimatedStateListDrawableItem android_id android_drawable

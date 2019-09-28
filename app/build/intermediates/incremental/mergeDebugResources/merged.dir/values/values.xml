@@ -73,10 +73,6 @@
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
-    <color name="browser_actions_bg_grey">#F5F5F5</color>
-    <color name="browser_actions_divider_color">#1E000000</color>
-    <color name="browser_actions_text_color">#DE000000</color>
-    <color name="browser_actions_title_color">#646464</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="cardview_dark_background">#FF424242</color>
@@ -234,8 +230,6 @@
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="browser_actions_context_menu_max_width">500dp</dimen>
-    <dimen name="browser_actions_context_menu_min_padding">20dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
@@ -423,7 +417,6 @@
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="design_tab_indicator_anim_duration_ms">300</integer>
-    <integer name="google_play_services_version">12451000</integer>
     <integer name="hide_password_duration">320</integer>
     <integer name="mtrl_btn_anim_delay_ms">100</integer>
     <integer name="mtrl_btn_anim_duration_ms">100</integer>
@@ -477,7 +470,6 @@
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
     <string name="copy_log">Copy</string>
     <string name="email_log">Send e-mail</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
@@ -506,7 +498,7 @@
     <string name="pref_default_ssh_port">22</string>
     <string name="pref_default_ssh_server"/>
     <string name="pref_default_ssh_username"/>
-    <string name="pref_default_verify_host">http://google.com</string>
+    <string name="pref_default_verify_host">https://google.com</string>
     <string name="pref_forward">Port Forwarding</string>
     <string name="pref_header_general">General</string>
     <string name="pref_specific_routes">Route specific subnets</string>
@@ -549,13 +541,6 @@
     <string name="refresh_log">Refresh</string>
     <string name="route_prefix_text">Prefix length</string>
     <string name="route_text">Route (e.g. 0.0.0.0)</string>
-    <string name="s1">Save image</string>
-    <string name="s2">"Allow Ad to store image in Picture gallery?"</string>
-    <string name="s3">Accept</string>
-    <string name="s4">Decline</string>
-    <string name="s5">Create calendar event</string>
-    <string name="s6">Allow Ad to create a calendar event?</string>
-    <string name="s7">Test Ad</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="str_config">Status</string>
@@ -591,8 +576,8 @@
     <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
     <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
   </style>
-    <style name="AppTheme">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        
         <item name="android:colorPrimary">@color/colorPrimary</item>
         <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="android:textColorPrimary">@color/primary_text_color_selector</item>
@@ -839,7 +824,7 @@
         <item name="actionBarWidgetTheme">@null</item>
         <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
 
-        <!-- Panel attributes -->
+        
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
 
         <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
@@ -891,7 +876,7 @@
     <item name="actionBarWidgetTheme">@null</item>
     <item name="actionBarTheme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
 
-    <!-- Panel attributes -->
+    
     <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
 
     <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
@@ -943,7 +928,7 @@
         <item name="colorButtonNormal">@color/button_material_dark</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
 
-        <!-- Used by MediaRouter -->
+        
         <item name="isLightTheme">false</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
@@ -980,7 +965,7 @@
         <item name="colorButtonNormal">@color/button_material_light</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
 
-        <!-- Used by MediaRouter -->
+        
         <item name="isLightTheme">true</item>
     </style>
     <style name="Base.ThemeOverlay.MaterialComponents.Dialog" parent="Base.V14.ThemeOverlay.MaterialComponents.Dialog"/>
@@ -988,12 +973,12 @@
     <style name="Base.V14.Theme.MaterialComponents" parent="Base.V14.Theme.MaterialComponents.Bridge">
     <item name="viewInflaterClass">com.google.android.material.theme.MaterialComponentsViewInflater</item>
 
-    <!-- Colors -->
+    
     <item name="colorPrimary">@color/design_default_color_primary</item>
     <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
     <item name="colorAccent">?attr/colorSecondary</item>
 
-    <!-- Widget styles -->
+    
     <item name="borderlessButtonStyle">@style/Widget.MaterialComponents.Button.TextButton</item>
     <item name="bottomAppBarStyle">@style/Widget.MaterialComponents.BottomAppBar</item>
     <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView.Colored</item>
@@ -1010,7 +995,7 @@
     <item name="textInputStyle">@style/Widget.Design.TextInputLayout</item>
     <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar</item>
 
-    <!-- Dialog themes -->
+    
     <item name="alertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item>
     <item name="android:datePickerDialogTheme" ns2:ignore="NewApi">@style/ThemeOverlay.MaterialComponents.Dialog</item>
     <item name="android:timePickerDialogTheme" ns2:ignore="NewApi">@style/ThemeOverlay.MaterialComponents.Dialog</item>
@@ -1020,7 +1005,7 @@
 
     <item name="scrimBackground">@color/mtrl_scrim_color</item>
 
-    <!-- Type styles -->
+    
     <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
     <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>
     <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3</item>
@@ -1038,7 +1023,7 @@
     <style name="Base.V14.Theme.MaterialComponents.Dialog" parent="Platform.MaterialComponents.Dialog">
     <item name="viewInflaterClass">com.google.android.material.theme.MaterialComponentsViewInflater</item>
 
-    <!-- Colors -->
+    
     <item name="colorPrimary">@color/design_default_color_primary</item>
     <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
 
@@ -1048,7 +1033,7 @@
 
     <item name="scrimBackground">@color/mtrl_scrim_color</item>
 
-    <!-- Widget styles -->
+    
     <item name="borderlessButtonStyle">@style/Widget.MaterialComponents.Button.TextButton</item>
     <item name="bottomAppBarStyle">@style/Widget.MaterialComponents.BottomAppBar</item>
     <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView.Colored</item>
@@ -1066,7 +1051,7 @@
     <item name="textInputStyle">@style/Widget.Design.TextInputLayout</item>
     <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar</item>
 
-    <!-- Type styles -->
+    
     <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
     <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>
     <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3</item>
@@ -1084,12 +1069,12 @@
     <style name="Base.V14.Theme.MaterialComponents.Light" parent="Base.V14.Theme.MaterialComponents.Light.Bridge">
     <item name="viewInflaterClass">com.google.android.material.theme.MaterialComponentsViewInflater</item>
 
-    <!-- Colors -->
+    
     <item name="colorPrimary">@color/design_default_color_primary</item>
     <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
     <item name="colorAccent">?attr/colorSecondary</item>
 
-    <!-- Widget styles -->
+    
     <item name="borderlessButtonStyle">@style/Widget.MaterialComponents.Button.TextButton</item>
     <item name="bottomAppBarStyle">@style/Widget.MaterialComponents.BottomAppBar</item>
     <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView</item>
@@ -1106,7 +1091,7 @@
     <item name="textInputStyle">@style/Widget.Design.TextInputLayout</item>
     <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar</item>
 
-    <!-- Dialog themes -->
+    
     <item name="alertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item>
     <item name="android:datePickerDialogTheme" ns2:ignore="NewApi">@style/ThemeOverlay.MaterialComponents.Dialog</item>
     <item name="android:timePickerDialogTheme" ns2:ignore="NewApi">@style/ThemeOverlay.MaterialComponents.Dialog</item>
@@ -1116,7 +1101,7 @@
 
     <item name="scrimBackground">@color/mtrl_scrim_color</item>
 
-    <!-- Type styles -->
+    
     <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
     <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>
     <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3</item>
@@ -1136,7 +1121,7 @@
 
     <item name="scrimBackground">@color/mtrl_scrim_color</item>
 
-    <!-- Type styles -->
+    
     <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
     <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>
     <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3</item>
@@ -1154,7 +1139,7 @@
     <style name="Base.V14.Theme.MaterialComponents.Light.Dialog" parent="Platform.MaterialComponents.Light.Dialog">
     <item name="viewInflaterClass">com.google.android.material.theme.MaterialComponentsViewInflater</item>
 
-    <!-- Colors -->
+    
     <item name="colorPrimary">@color/design_default_color_primary</item>
     <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
 
@@ -1164,7 +1149,7 @@
 
     <item name="scrimBackground">@color/mtrl_scrim_color</item>
 
-    <!-- Widget styles -->
+    
     <item name="borderlessButtonStyle">@style/Widget.MaterialComponents.Button.TextButton</item>
     <item name="bottomAppBarStyle">@style/Widget.MaterialComponents.BottomAppBar</item>
     <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView</item>
@@ -1182,7 +1167,7 @@
     <item name="textInputStyle">@style/Widget.Design.TextInputLayout</item>
     <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar</item>
 
-    <!-- Type styles -->
+    
     <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
     <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>
     <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3</item>
@@ -1198,11 +1183,11 @@
     <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
   </style>
     <style name="Base.V14.ThemeOverlay.MaterialComponents.Dialog" parent="ThemeOverlay.AppCompat.Dialog">
-    <!-- Widget styles -->
+    
     <item name="materialButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
   </style>
     <style name="Base.V14.ThemeOverlay.MaterialComponents.Dialog.Alert" parent="ThemeOverlay.AppCompat.Dialog.Alert">
-    <!-- Widget styles -->
+    
     <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
   </style>
     <style name="Base.V7.Theme.AppCompat" parent="Platform.AppCompat">
@@ -1215,7 +1200,7 @@
 
         <item name="colorBackgroundFloating">@color/background_floating_material_dark</item>
 
-        <!-- Used by MediaRouter -->
+        
         <item name="isLightTheme">false</item>
 
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
@@ -1226,7 +1211,7 @@
         <item name="dividerVertical">@drawable/abc_list_divider_mtrl_alpha</item>
         <item name="dividerHorizontal">@drawable/abc_list_divider_mtrl_alpha</item>
 
-        <!-- Action Bar Styles -->
+        
         <item name="actionBarTabStyle">@style/Widget.AppCompat.ActionBar.TabView</item>
         <item name="actionBarTabBarStyle">@style/Widget.AppCompat.ActionBar.TabBar</item>
         <item name="actionBarTabTextStyle">@style/Widget.AppCompat.ActionBar.TabText</item>
@@ -1243,10 +1228,10 @@
         <item name="actionMenuTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
         <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
 
-        <!-- Dropdown Spinner Attributes -->
+        
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
 
-        <!-- Action Mode -->
+        
         <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
         <item name="actionModeBackground">@drawable/abc_cab_background_top_material</item>
         <item name="actionModeSplitBackground">?attr/colorPrimaryDark</item>
@@ -1259,14 +1244,14 @@
         <item name="actionModeSelectAllDrawable">@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
         <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
 
-        <!-- Panel attributes -->
+        
         <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
         <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
         <item name="panelBackground">@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
         <item name="android:panelBackground">@android:color/transparent</item>
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
 
-        <!-- List attributes -->
+        
         <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSmall">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSecondary">@style/TextAppearance.AppCompat.Body1</item>
@@ -1276,16 +1261,16 @@
         <item name="listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
         <item name="listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
 
-        <!-- Spinner styles -->
+        
         <item name="spinnerStyle">@style/Widget.AppCompat.Spinner</item>
         <item name="android:spinnerItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem</item>
         <item name="android:dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
 
-        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
+        
         <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
 
-        <!-- Popup Menu styles -->
+        
         <item name="popupMenuStyle">@style/Widget.AppCompat.PopupMenu</item>
         <item name="textAppearanceLargePopupMenu">@style/TextAppearance.AppCompat.Widget.PopupMenu.Large</item>
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Widget.PopupMenu.Small</item>
@@ -1294,17 +1279,17 @@
         <item name="dropDownListViewStyle">?android:attr/dropDownListViewStyle</item>
         <item name="listMenuViewStyle">@style/Widget.AppCompat.ListMenuView</item>
 
-        <!-- SearchView attributes -->
+        
         <item name="searchViewStyle">@style/Widget.AppCompat.SearchView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="textColorSearchUrl">@color/abc_search_url_text</item>
         <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
         <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
 
-        <!-- ShareActionProvider attributes -->
+        
         <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
 
-        <!-- Toolbar styles -->
+        
         <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
         <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
 
@@ -1313,7 +1298,7 @@
         <item name="editTextColor">?android:attr/textColorPrimary</item>
         <item name="autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
 
-        <!-- Color palette -->
+        
         <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
         <item name="colorPrimary">@color/primary_material_dark</item>
         <item name="colorAccent">@color/accent_material_dark</item>
@@ -1336,7 +1321,7 @@
         <item name="ratingBarStyleSmall">@style/Widget.AppCompat.RatingBar.Small</item>
         <item name="seekBarStyle">@style/Widget.AppCompat.SeekBar</item>
 
-        <!-- Button styles -->
+        
         <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
         <item name="buttonStyleSmall">@style/Widget.AppCompat.Button.Small</item>
         <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Widget.Button</item>
@@ -1349,7 +1334,7 @@
         <item name="buttonBarNegativeButtonStyle">?attr/buttonBarButtonStyle</item>
         <item name="buttonBarNeutralButtonStyle">?attr/buttonBarButtonStyle</item>
 
-        <!-- Dialog attributes -->
+        
         <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog</item>
         <item name="dialogPreferredPadding">@dimen/abc_dialog_padding_material</item>
         <item name="dialogCornerRadius">@dimen/abc_dialog_corner_radius_material</item>
@@ -1360,14 +1345,13 @@
         <item name="textColorAlertDialogListItem">@color/abc_primary_text_material_dark</item>
         <item name="listDividerAlertDialog">@null</item>
 
-        <!-- Define these here; ContextThemeWrappers around themes that define them should
-             always clear these values. -->
+        
         <item name="windowFixedWidthMajor">@null</item>
         <item name="windowFixedWidthMinor">@null</item>
         <item name="windowFixedHeightMajor">@null</item>
         <item name="windowFixedHeightMinor">@null</item>
 
-        <!-- Tooltip attributes -->
+        
         <item name="tooltipFrameBackground">@drawable/tooltip_frame_light</item>
         <item name="tooltipForegroundColor">@color/foreground_material_light</item>
 
@@ -1410,7 +1394,7 @@
 
         <item name="colorBackgroundFloating">@color/background_floating_material_light</item>
 
-        <!-- Used by MediaRouter -->
+        
         <item name="isLightTheme">true</item>
 
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
@@ -1421,7 +1405,7 @@
         <item name="dividerVertical">@drawable/abc_list_divider_mtrl_alpha</item>
         <item name="dividerHorizontal">@drawable/abc_list_divider_mtrl_alpha</item>
 
-        <!-- Action Bar Styles -->
+        
         <item name="actionBarTabStyle">@style/Widget.AppCompat.Light.ActionBar.TabView</item>
         <item name="actionBarTabBarStyle">@style/Widget.AppCompat.Light.ActionBar.TabBar</item>
         <item name="actionBarTabTextStyle">@style/Widget.AppCompat.Light.ActionBar.TabText</item>
@@ -1438,7 +1422,7 @@
         <item name="actionMenuTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
         <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
 
-        <!-- Action Mode -->
+        
         <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
         <item name="actionModeBackground">@drawable/abc_cab_background_top_material</item>
         <item name="actionModeSplitBackground">?attr/colorPrimaryDark</item>
@@ -1451,17 +1435,17 @@
         <item name="actionModeSelectAllDrawable">@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
         <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
 
-        <!-- Dropdown Spinner Attributes -->
+        
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
 
-        <!-- Panel attributes -->
+        
         <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
         <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
         <item name="panelBackground">@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
         <item name="android:panelBackground">@android:color/transparent</item>
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_light</item>
 
-        <!-- List attributes -->
+        
         <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSmall">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSecondary">@style/TextAppearance.AppCompat.Body1</item>
@@ -1471,16 +1455,16 @@
         <item name="listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
         <item name="listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
 
-        <!-- Spinner styles -->
+        
         <item name="spinnerStyle">@style/Widget.AppCompat.Spinner</item>
         <item name="android:spinnerItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem</item>
         <item name="android:dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
 
-        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
+        
         <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
 
-        <!-- Popup Menu styles -->
+        
         <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
         <item name="textAppearanceLargePopupMenu">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
@@ -1489,17 +1473,17 @@
         <item name="dropDownListViewStyle">?android:attr/dropDownListViewStyle</item>
         <item name="listMenuViewStyle">@style/Widget.AppCompat.ListMenuView</item>
 
-        <!-- SearchView attributes -->
+        
         <item name="searchViewStyle">@style/Widget.AppCompat.Light.SearchView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="textColorSearchUrl">@color/abc_search_url_text</item>
         <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
         <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
 
-        <!-- ShareActionProvider attributes -->
+        
         <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
 
-        <!-- Toolbar styles -->
+        
         <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
         <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
 
@@ -1508,7 +1492,7 @@
         <item name="editTextColor">?android:attr/textColorPrimary</item>
         <item name="autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
 
-        <!-- Color palette -->
+        
         <item name="colorPrimaryDark">@color/primary_dark_material_light</item>
         <item name="colorPrimary">@color/primary_material_light</item>
         <item name="colorAccent">@color/accent_material_light</item>
@@ -1531,7 +1515,7 @@
         <item name="ratingBarStyleSmall">@style/Widget.AppCompat.RatingBar.Small</item>
         <item name="seekBarStyle">@style/Widget.AppCompat.SeekBar</item>
 
-        <!-- Button styles -->
+        
         <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
         <item name="buttonStyleSmall">@style/Widget.AppCompat.Button.Small</item>
         <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Widget.Button</item>
@@ -1544,7 +1528,7 @@
         <item name="buttonBarNegativeButtonStyle">?attr/buttonBarButtonStyle</item>
         <item name="buttonBarNeutralButtonStyle">?attr/buttonBarButtonStyle</item>
 
-        <!-- Dialog attributes -->
+        
         <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog</item>
         <item name="dialogPreferredPadding">@dimen/abc_dialog_padding_material</item>
         <item name="dialogCornerRadius">@dimen/abc_dialog_corner_radius_material</item>
@@ -1555,14 +1539,13 @@
         <item name="textColorAlertDialogListItem">@color/abc_primary_text_material_light</item>
         <item name="listDividerAlertDialog">@null</item>
 
-        <!-- Define these here; ContextThemeWrappers around themes that define them should
-             always clear these values. -->
+        
         <item name="windowFixedWidthMajor">@null</item>
         <item name="windowFixedWidthMinor">@null</item>
         <item name="windowFixedHeightMajor">@null</item>
         <item name="windowFixedHeightMinor">@null</item>
 
-        <!-- Tooltip attributes -->
+        
         <item name="tooltipFrameBackground">@drawable/tooltip_frame_dark</item>
         <item name="tooltipForegroundColor">@color/foreground_material_dark</item>
 
@@ -2037,7 +2020,7 @@
         <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
         <item name="android:borderlessButtonStyle">?attr/borderlessButtonStyle</item>
 
-        <!-- Window colors -->
+        
         <item name="android:colorForeground">@color/foreground_material_dark</item>
         <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
         <item name="android:colorBackground">@color/background_material_dark</item>
@@ -2046,7 +2029,7 @@
         <item name="android:backgroundDimAmount">0.6</item>
         <item name="android:windowBackground">@color/background_material_dark</item>
 
-        <!-- Text colors -->
+        
         <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
         <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item>
         <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
@@ -2062,7 +2045,7 @@
         <item name="android:textColorLinkInverse">?attr/colorAccent</item>
         <item name="android:textColorAlertDialogListItem">@color/abc_primary_text_material_dark</item>
 
-        <!-- Text styles -->
+        
         <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
         <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
         <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Large</item>
@@ -2095,7 +2078,7 @@
         <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
         <item name="android:borderlessButtonStyle">?attr/borderlessButtonStyle</item>
 
-        <!-- Window colors -->
+        
         <item name="android:colorForeground">@color/foreground_material_light</item>
         <item name="android:colorForegroundInverse">@color/foreground_material_dark</item>
         <item name="android:colorBackground">@color/background_material_light</item>
@@ -2104,7 +2087,7 @@
         <item name="android:backgroundDimAmount">0.6</item>
         <item name="android:windowBackground">@color/background_material_light</item>
 
-        <!-- Text colors -->
+        
         <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
         <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_dark</item>
         <item name="android:textColorSecondary">@color/abc_secondary_text_material_light</item>
@@ -2121,7 +2104,7 @@
         <item name="android:textColorLinkInverse">?attr/colorAccent</item>
         <item name="android:textColorAlertDialogListItem">@color/abc_primary_text_material_light</item>
 
-        <!-- Text styles -->
+        
         <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
         <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
         <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Large</item>
@@ -2152,12 +2135,12 @@
     <style name="Platform.MaterialComponents.Light.Dialog" parent="Theme.AppCompat.Light.Dialog"/>
     <style name="Platform.ThemeOverlay.AppCompat" parent=""/>
     <style name="Platform.ThemeOverlay.AppCompat.Dark">
-        <!-- Action Bar styles -->
+        
         <item name="actionBarItemBackground">@drawable/abc_item_background_holo_dark</item>
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
 
-        <!-- SearchView styles -->
+        
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
@@ -2166,7 +2149,7 @@
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
 
-        <!-- SearchView attributes -->
+        
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.Light.AutoCompleteTextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
@@ -2333,7 +2316,7 @@
     <item name="android:letterSpacing">0.0178571429</item>
   </style>
     <style name="TextAppearance.MaterialComponents.Button" parent="TextAppearance.AppCompat.Button">
-    <!-- Fake Roboto Medium. -->
+    
     <item name="fontFamily">sans-serif-medium</item>
     <item name="android:fontFamily">sans-serif-medium</item>
     <item name="android:textStyle">bold</item>
@@ -2394,7 +2377,7 @@
     <item name="android:letterSpacing">0</item>
   </style>
     <style name="TextAppearance.MaterialComponents.Headline6" parent="TextAppearance.AppCompat.Title">
-    <!-- Fake Roboto Medium. -->
+    
     <item name="fontFamily">sans-serif-medium</item>
     <item name="android:fontFamily">sans-serif-medium</item>
     <item name="android:textStyle">bold</item>
@@ -2403,7 +2386,7 @@
     <item name="android:letterSpacing">0.0125</item>
   </style>
     <style name="TextAppearance.MaterialComponents.Overline" parent="TextAppearance.AppCompat">
-    <!-- Fake Roboto Medium. -->
+    
     <item name="fontFamily">sans-serif-medium</item>
     <item name="android:fontFamily">sans-serif-medium</item>
     <item name="android:textStyle">bold</item>
@@ -2420,7 +2403,7 @@
     <item name="android:letterSpacing">0.009375</item>
   </style>
     <style name="TextAppearance.MaterialComponents.Subtitle2" parent="TextAppearance.AppCompat.Subhead">
-    <!-- Fake Roboto Medium. -->
+    
     <item name="fontFamily">sans-serif-medium</item>
     <item name="android:fontFamily">sans-serif-medium</item>
     <item name="android:textStyle">bold</item>
@@ -2488,14 +2471,6 @@
     <item name="windowActionBar">false</item>
     <item name="windowNoTitle">true</item>
   </style>
-    <style name="Theme.IAPTheme" parent="android:Theme">
-<item name="android:windowIsFloating">true</item>
-<item name="android:windowBackground">@android:color/transparent</item>
-<item name="android:windowContentOverlay">@null</item>
-<item name="android:windowNoTitle">true</item>
-<item name="android:backgroundDimEnabled">false</item>
-<item name="android:windowIsTranslucent">true</item>
-</style>
     <style name="Theme.MaterialComponents" parent="Base.Theme.MaterialComponents"/>
     <style name="Theme.MaterialComponents.BottomSheetDialog" parent="Theme.MaterialComponents.Dialog">
     <item name="android:windowBackground">@android:color/transparent</item>
@@ -2815,10 +2790,10 @@
     <item name="android:minWidth">@dimen/mtrl_btn_dialog_btn_min_width</item>
   </style>
     <style name="Widget.MaterialComponents.Button.TextButton.Dialog.Icon">
-    <!-- Icon text button has the same padding as a regular text button -->
+    
   </style>
     <style name="Widget.MaterialComponents.Button.TextButton.Icon">
-    <!-- Icon text button has the same padding as a regular text button -->
+    
   </style>
     <style name="Widget.MaterialComponents.Button.UnelevatedButton">
     <item name="android:stateListAnimator" ns2:ignore="NewApi">@animator/mtrl_btn_unelevated_state_list_anim</item>
@@ -2934,24 +2909,23 @@
     <item name="titleTextColor">?android:attr/textColorPrimary</item>
     <item name="subtitleTextAppearance">?attr/textAppearanceSubtitle1</item>
     <item name="subtitleTextColor">?android:attr/textColorSecondary</item>
-    <!-- Overrides minimum height in landscape to avoid headline6 and subtitle1
-         height concerns. -->
+    
     <item name="android:minHeight">@dimen/mtrl_toolbar_default_height</item>
   </style>
     <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
     </style>
     <declare-styleable name="ActionBar">
-        <!-- The type of navigation to use. -->
+        
         <attr name="navigationMode">
-            <!-- Normal static title text -->
+            
             <enum name="normal" value="0"/>
-            <!-- The action bar will use a selection list for navigation. -->
+            
             <enum name="listMode" value="1"/>
-            <!-- The action bar will use a series of horizontal tabs for navigation. -->
+            
             <enum name="tabMode" value="2"/>
         </attr>
-        <!-- Options affecting how the action bar is displayed. -->
+        
         <attr name="displayOptions">
             <flag name="none" value="0"/>
             <flag name="useLogo" value="0x1"/>
@@ -2961,67 +2935,59 @@
             <flag name="showCustom" value="0x10"/>
             <flag name="disableHome" value="0x20"/>
         </attr>
-        <!-- Specifies title text used for navigationMode="normal" -->
+        
         <attr name="title"/>
-        <!-- Specifies subtitle text used for navigationMode="normal" -->
+        
         <attr format="string" name="subtitle"/>
-        <!-- Specifies a style to use for title text. -->
+        
         <attr format="reference" name="titleTextStyle"/>
-        <!-- Specifies a style to use for subtitle text. -->
+        
         <attr format="reference" name="subtitleTextStyle"/>
-        <!-- Specifies the drawable used for the application icon. -->
+        
         <attr format="reference" name="icon"/>
-        <!-- Specifies the drawable used for the application logo. -->
+        
         <attr format="reference" name="logo"/>
-        <!-- Specifies the drawable used for item dividers. -->
+        
         <attr format="reference" name="divider"/>
-        <!-- Specifies a background drawable for the action bar. -->
+        
         <attr format="reference" name="background"/>
-        <!-- Specifies a background drawable for a second stacked row of the action bar. -->
+        
         <attr format="reference|color" name="backgroundStacked"/>
-        <!-- Specifies a background drawable for the bottom component of a split action bar. -->
+        
         <attr format="reference|color" name="backgroundSplit"/>
-        <!-- Specifies a layout for custom navigation. Overrides navigationMode. -->
+        
         <attr format="reference" name="customNavigationLayout"/>
-        <!-- Specifies a fixed height. -->
+        
         <attr name="height"/>
-        <!-- Specifies a layout to use for the "home" section of the action bar. -->
+        
         <attr format="reference" name="homeLayout"/>
-        <!-- Specifies a style resource to use for an embedded progress bar. -->
+        
         <attr format="reference" name="progressBarStyle"/>
-        <!-- Specifies a style resource to use for an indeterminate progress spinner. -->
+        
         <attr format="reference" name="indeterminateProgressStyle"/>
-        <!-- Specifies the horizontal padding on either end for an embedded progress bar. -->
+        
         <attr format="dimension" name="progressBarPadding"/>
-        <!-- Up navigation glyph -->
+        
         <attr name="homeAsUpIndicator"/>
-        <!-- Specifies padding that should be applied to the left and right sides of
-             system-provided items in the bar. -->
+        
         <attr format="dimension" name="itemPadding"/>
-        <!-- Set true to hide the action bar on a vertical nested scroll of content. -->
+        
         <attr format="boolean" name="hideOnContentScroll"/>
-        <!-- Minimum inset for content views within a bar. Navigation buttons and
-             menu views are excepted. Only valid for some themes and configurations. -->
+        
         <attr format="dimension" name="contentInsetStart"/>
-        <!-- Minimum inset for content views within a bar. Navigation buttons and
-             menu views are excepted. Only valid for some themes and configurations. -->
+        
         <attr format="dimension" name="contentInsetEnd"/>
-        <!-- Minimum inset for content views within a bar. Navigation buttons and
-             menu views are excepted. Only valid for some themes and configurations. -->
+        
         <attr format="dimension" name="contentInsetLeft"/>
-        <!-- Minimum inset for content views within a bar. Navigation buttons and
-             menu views are excepted. Only valid for some themes and configurations. -->
+        
         <attr format="dimension" name="contentInsetRight"/>
-        <!-- Minimum inset for content views within a bar when a navigation button
-             is present, such as the Up button. Only valid for some themes and configurations. -->
+        
         <attr format="dimension" name="contentInsetStartWithNavigation"/>
-        <!-- Minimum inset for content views within a bar when actions from a menu
-             are present. Only valid for some themes and configurations. -->
+        
         <attr format="dimension" name="contentInsetEndWithActions"/>
-        <!-- Elevation for the action bar itself -->
+        
         <attr format="dimension" name="elevation"/>
-        <!-- Reference to a theme that should be used to inflate popups
-             shown by widgets in the action bar. -->
+        
         <attr format="reference" name="popupTheme"/>
     </declare-styleable>
     <declare-styleable name="ActionBarLayout">
@@ -3031,40 +2997,28 @@
         <attr name="android:minWidth"/>
     </declare-styleable>
     <declare-styleable name="ActionMenuView">
-        <!-- Size of padding on either end of a divider. -->
+        
     </declare-styleable>
     <declare-styleable name="ActionMode">
-        <!-- Specifies a style to use for title text. -->
+        
         <attr name="titleTextStyle"/>
-        <!-- Specifies a style to use for subtitle text. -->
+        
         <attr name="subtitleTextStyle"/>
-        <!-- Specifies a background for the action mode bar. -->
+        
         <attr name="background"/>
-        <!-- Specifies a background for the split action mode bar. -->
+        
         <attr name="backgroundSplit"/>
-        <!-- Specifies a fixed height for the action mode bar. -->
+        
         <attr name="height"/>
-        <!-- Specifies a layout to use for the "close" item at the starting edge. -->
+        
         <attr format="reference" name="closeItemLayout"/>
     </declare-styleable>
     <declare-styleable name="ActivityChooserView">
-        <!-- The maximal number of items initially shown in the activity list. -->
+        
         <attr format="string" name="initialActivityCount"/>
-        <!-- The drawable to show in the button for expanding the activities overflow popup.
-             <strong>Note:</strong> Clients would like to set this drawable
-             as a clue about the action the chosen activity will perform. For
-             example, if share activity is to be chosen the drawable should
-             give a clue that sharing is to be performed.
-         -->
+        
         <attr format="reference" name="expandActivityOverflowButtonDrawable"/>
     </declare-styleable>
-    <declare-styleable name="AdsAttrs">
-<attr format="string" name="adSize"/>
-
-<attr format="string" name="adSizes"/>
-
-<attr format="string" name="adUnitId"/>
-</declare-styleable>
     <declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
@@ -3076,48 +3030,35 @@
         <attr format="dimension" name="buttonIconDimen"/>
     </declare-styleable>
     <declare-styleable name="AnimatedStateListDrawableCompat">
-        <!-- Indicates whether the drawable should be initially visible. -->
+        
         <attr name="android:visible"/>
-        <!-- If true, allows the drawable's padding to change based on the
-             current state that is selected.  If false, the padding will
-             stay the same (based on the maximum padding of all the states).
-             Enabling this feature requires that the owner of the drawable
-             deal with performing layout when the state changes, which is
-             often not supported. -->
+        
         <attr name="android:variablePadding"/>
-        <!-- If true, the drawable's reported internal size will remain
-             constant as the state changes; the size is the maximum of all
-             of the states.  If false, the size will vary based on the
-             current state. -->
+        
         <attr name="android:constantSize"/>
-        <!-- Enables or disables dithering of the bitmap if the bitmap does not have the
-             same pixel configuration as the screen (for instance: a ARGB 8888 bitmap with
-             an RGB 565 screen). -->
+        
         <attr name="android:dither"/>
-        <!-- Amount of time (in milliseconds) to fade in a new state drawable. -->
+        
         <attr name="android:enterFadeDuration"/>
-        <!-- Amount of time (in milliseconds) to fade out an old state drawable. -->
+        
         <attr name="android:exitFadeDuration"/>
-        <!-- Indicates if the drawable needs to be mirrored when its layout direction is
-             RTL (right-to-left). -->
-        <!--<attr name="autoMirrored"/>-->
+        
+        
     </declare-styleable>
     <declare-styleable name="AnimatedStateListDrawableItem">
-        <!-- Reference to a drawable resource to use for the frame.  If not
-             given, the drawable must be defined by the first child tag. -->
+        
         <attr name="android:drawable"/>
-        <!-- Keyframe identifier for use in specifying transitions. -->
+        
         <attr name="android:id"/>
     </declare-styleable>
     <declare-styleable name="AnimatedStateListDrawableTransition">
-        <!-- Keyframe identifier for the starting state. -->
+        
         <attr name="android:fromId"/>
-        <!-- Keyframe identifier for the ending state. -->
+        
         <attr name="android:toId"/>
-        <!-- Reference to a animation drawable resource to use for the frame.  If not
-             given, the animation drawable must be defined by the first child tag. -->
+        
         <attr name="android:drawable"/>
-        <!-- Whether this transition is reversible. -->
+        
         <attr name="android:reversible"/>
     </declare-styleable>
     <declare-styleable name="AppBarLayout"><attr name="elevation"/><attr name="android:background"/><attr format="boolean" name="expanded"/><attr name="android:keyboardNavigationCluster"/><attr name="android:touchscreenBlocksFocus"/><attr format="boolean" name="liftOnScroll"/></declare-styleable>
@@ -3143,58 +3084,47 @@
     </attr><attr format="reference" name="layout_scrollInterpolator"/></declare-styleable>
     <declare-styleable name="AppCompatImageView">
         <attr name="android:src"/>
-        <!-- Sets a drawable as the content of this ImageView. Allows the use of vector drawable
-             when running on older versions of the platform. -->
+        
         <attr format="reference" name="srcCompat"/>
 
-        <!-- Tint to apply to the image source. -->
+        
         <attr format="color" name="tint"/>
 
-        <!-- Blending mode used to apply the image source tint. -->
+        
         <attr name="tintMode">
-            <!-- The tint is drawn on top of the drawable.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the drawable with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and icon color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
     <declare-styleable name="AppCompatSeekBar">
         <attr name="android:thumb"/>
-        <!-- Drawable displayed at each progress position on a seekbar. -->
+        
         <attr format="reference" name="tickMark"/>
-        <!-- Tint to apply to the tick mark drawable. -->
+        
         <attr format="color" name="tickMarkTint"/>
-        <!-- Blending mode used to apply the tick mark tint. -->
+        
         <attr name="tickMarkTintMode">
-            <!-- The tint is drawn on top of the drawable.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the drawable with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and drawable color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -3208,419 +3138,372 @@
         <attr name="android:textAppearance"/>
     </declare-styleable>
     <declare-styleable name="AppCompatTextView">
-        <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
+        
         <attr format="reference|boolean" name="textAllCaps"/>
         <attr name="android:textAppearance"/>
-        <!-- Specify the type of auto-size. Note that this feature is not supported by EditText,
-        works only for TextView. -->
+        
         <attr format="enum" name="autoSizeTextType">
-            <!-- No auto-sizing (default). -->
+            
             <enum name="none" value="0"/>
-            <!-- Uniform horizontal and vertical text size scaling to fit within the
-            container. -->
+            
             <enum name="uniform" value="1"/>
         </attr>
-        <!-- Specify the auto-size step size if <code>autoSizeTextType</code> is set to
-        <code>uniform</code>. The default is 1px. Overwrites
-        <code>autoSizePresetSizes</code> if set. -->
+        
         <attr format="dimension" name="autoSizeStepGranularity"/>
-        <!-- Resource array of dimensions to be used in conjunction with
-        <code>autoSizeTextType</code> set to <code>uniform</code>. Overrides
-        <code>autoSizeStepGranularity</code> if set. -->
+        
         <attr format="reference" name="autoSizePresetSizes"/>
-        <!-- The minimum text size constraint to be used when auto-sizing text. -->
+        
         <attr format="dimension" name="autoSizeMinTextSize"/>
-        <!-- The maximum text size constraint to be used when auto-sizing text. -->
+        
         <attr format="dimension" name="autoSizeMaxTextSize"/>
-        <!-- The attribute for the font family. -->
+        
         <attr format="string" name="fontFamily"/>
-        <!-- Explicit height between lines of text. If set, this will override the values set
-             for lineSpacingExtra and lineSpacingMultiplier. -->
+        
         <attr format="dimension" name="lineHeight"/>
-        <!-- Distance from the top of the TextView to the first text baseline. If set, this
-             overrides the value set for paddingTop. -->
+        
         <attr format="dimension" name="firstBaselineToTopHeight"/>
-        <!-- Distance from the bottom of the TextView to the last text baseline. If set, this
-             overrides the value set for paddingBottom. -->
+        
         <attr format="dimension" name="lastBaselineToBottomHeight"/>
     </declare-styleable>
     <declare-styleable name="AppCompatTheme">
 
-        <!-- ============= -->
-        <!-- Window styles -->
-        <!-- ============= -->
+        
+        
+        
         <eat-comment/>
 
-        <!-- Flag indicating whether this window should have an Action Bar
-             in place of the usual title bar. -->
+        
         <attr format="boolean" name="windowActionBar"/>
 
-        <!-- Flag indicating whether there should be no title on this window. -->
+        
         <attr format="boolean" name="windowNoTitle"/>
 
-        <!-- Flag indicating whether this window's Action Bar should overlay
-             application content. Does nothing if the window would not
-             have an Action Bar. -->
+        
         <attr format="boolean" name="windowActionBarOverlay"/>
 
-        <!-- Flag indicating whether action modes should overlay window content
-             when there is not reserved space for their UI (such as an Action Bar). -->
+        
         <attr format="boolean" name="windowActionModeOverlay"/>
 
-        <!-- A fixed width for the window along the major axis of the screen,
-             that is, when in landscape. Can be either an absolute dimension
-             or a fraction of the screen size in that dimension. -->
+        
         <attr format="dimension|fraction" name="windowFixedWidthMajor"/>
-        <!-- A fixed height for the window along the minor axis of the screen,
-             that is, when in landscape. Can be either an absolute dimension
-             or a fraction of the screen size in that dimension. -->
+        
         <attr format="dimension|fraction" name="windowFixedHeightMinor"/>
 
-        <!-- A fixed width for the window along the minor axis of the screen,
-             that is, when in portrait. Can be either an absolute dimension
-             or a fraction of the screen size in that dimension. -->
+        
         <attr format="dimension|fraction" name="windowFixedWidthMinor"/>
-        <!-- A fixed height for the window along the major axis of the screen,
-             that is, when in portrait. Can be either an absolute dimension
-             or a fraction of the screen size in that dimension. -->
+        
         <attr format="dimension|fraction" name="windowFixedHeightMajor"/>
 
-        <!-- The minimum width the window is allowed to be, along the major
-             axis of the screen.  That is, when in landscape.  Can be either
-             an absolute dimension or a fraction of the screen size in that
-             dimension. -->
+        
         <attr format="dimension|fraction" name="windowMinWidthMajor"/>
-        <!-- The minimum width the window is allowed to be, along the minor
-             axis of the screen.  That is, when in portrait.  Can be either
-             an absolute dimension or a fraction of the screen size in that
-             dimension. -->
+        
         <attr format="dimension|fraction" name="windowMinWidthMinor"/>
 
         <attr name="android:windowIsFloating"/>
         <attr name="android:windowAnimationStyle"/>
 
-        <!-- =================== -->
-        <!-- Action bar styles   -->
-        <!-- =================== -->
+        
+        
+        
         <eat-comment/>
-        <!-- Default style for tabs within an action bar -->
+        
         <attr format="reference" name="actionBarTabStyle"/>
         <attr format="reference" name="actionBarTabBarStyle"/>
         <attr format="reference" name="actionBarTabTextStyle"/>
         <attr format="reference" name="actionOverflowButtonStyle"/>
         <attr format="reference" name="actionOverflowMenuStyle"/>
-        <!-- Reference to a theme that should be used to inflate popups
-             shown by widgets in the action bar. -->
+        
         <attr format="reference" name="actionBarPopupTheme"/>
-        <!-- Reference to a style for the Action Bar -->
+        
         <attr format="reference" name="actionBarStyle"/>
-        <!-- Reference to a style for the split Action Bar. This style
-             controls the split component that holds the menu/action
-             buttons. actionBarStyle is still used for the primary
-             bar. -->
+        
         <attr format="reference" name="actionBarSplitStyle"/>
-        <!-- Reference to a theme that should be used to inflate the
-             action bar. This will be inherited by any widget inflated
-             into the action bar. -->
+        
         <attr format="reference" name="actionBarTheme"/>
-        <!-- Reference to a theme that should be used to inflate widgets
-             and layouts destined for the action bar. Most of the time
-             this will be a reference to the current theme, but when
-             the action bar has a significantly different contrast
-             profile than the rest of the activity the difference
-             can become important. If this is set to @null the current
-             theme will be used.-->
+        
         <attr format="reference" name="actionBarWidgetTheme"/>
-        <!-- Size of the Action Bar, including the contextual
-             bar used to present Action Modes. -->
+        
         <attr format="dimension" name="actionBarSize">
             <enum name="wrap_content" value="0"/>
         </attr>
-        <!-- Custom divider drawable to use for elements in the action bar. -->
+        
         <attr format="reference" name="actionBarDivider"/>
-        <!-- Custom item state list drawable background for action bar items. -->
+        
         <attr format="reference" name="actionBarItemBackground"/>
-        <!-- TextAppearance style that will be applied to text that
-             appears within action menu items. -->
+        
         <attr format="reference" name="actionMenuTextAppearance"/>
-        <!-- Color for text that appears within action menu items. -->
-        <!-- Color for text that appears within action menu items. -->
+        
+        
         <attr format="color|reference" name="actionMenuTextColor"/>
 
 
-        <!-- =================== -->
-        <!-- Action mode styles  -->
-        <!-- =================== -->
+        
+        
+        
         <eat-comment/>
         <attr format="reference" name="actionModeStyle"/>
         <attr format="reference" name="actionModeCloseButtonStyle"/>
-        <!-- Background drawable to use for action mode UI -->
+        
         <attr format="reference" name="actionModeBackground"/>
-        <!-- Background drawable to use for action mode UI in the lower split bar -->
+        
         <attr format="reference" name="actionModeSplitBackground"/>
-        <!-- Drawable to use for the close action mode button -->
+        
         <attr format="reference" name="actionModeCloseDrawable"/>
-        <!-- Drawable to use for the Cut action button in Contextual Action Bar -->
+        
         <attr format="reference" name="actionModeCutDrawable"/>
-        <!-- Drawable to use for the Copy action button in Contextual Action Bar -->
+        
         <attr format="reference" name="actionModeCopyDrawable"/>
-        <!-- Drawable to use for the Paste action button in Contextual Action Bar -->
+        
         <attr format="reference" name="actionModePasteDrawable"/>
-        <!-- Drawable to use for the Select all action button in Contextual Action Bar -->
+        
         <attr format="reference" name="actionModeSelectAllDrawable"/>
-        <!-- Drawable to use for the Share action button in WebView selection action modes -->
+        
         <attr format="reference" name="actionModeShareDrawable"/>
-        <!-- Drawable to use for the Find action button in WebView selection action modes -->
+        
         <attr format="reference" name="actionModeFindDrawable"/>
-        <!-- Drawable to use for the Web Search action button in WebView selection action modes -->
+        
         <attr format="reference" name="actionModeWebSearchDrawable"/>
 
-        <!-- PopupWindow style to use for action modes when showing as a window overlay. -->
+        
         <attr format="reference" name="actionModePopupWindowStyle"/>
 
 
-        <!-- =================== -->
-        <!-- Text styles -->
-        <!-- =================== -->
+        
+        
+        
         <eat-comment/>
-        <!-- Text color, typeface, size, and style for the text inside of a popup menu. -->
+        
         <attr format="reference" name="textAppearanceLargePopupMenu"/>
-        <!-- Text color, typeface, size, and style for small text inside of a popup menu. -->
+        
         <attr format="reference" name="textAppearanceSmallPopupMenu"/>
-        <!-- Text color, typeface, size, and style for header text inside of a popup menu. -->
+        
         <attr format="reference" name="textAppearancePopupMenuHeader"/>
 
 
-        <!-- =================== -->
-        <!-- Dialog styles -->
-        <!-- =================== -->
+        
+        
+        
         <eat-comment/>
 
-        <!-- Theme to use for dialogs spawned from this theme. -->
+        
         <attr format="reference" name="dialogTheme"/>
-        <!-- Preferred padding for dialog content. -->
+        
         <attr format="dimension" name="dialogPreferredPadding"/>
-        <!-- The list divider used in alert dialogs. -->
+        
         <attr format="reference" name="listDividerAlertDialog"/>
-        <!-- Preferred corner radius of dialogs. -->
+        
         <attr format="dimension" name="dialogCornerRadius"/>
 
-        <!-- =================== -->
-        <!-- Other widget styles -->
-        <!-- =================== -->
+        
+        
+        
         <eat-comment/>
 
-        <!-- Default ActionBar dropdown style. -->
+        
         <attr format="reference" name="actionDropDownStyle"/>
-        <!-- The preferred item height for dropdown lists. -->
+        
         <attr format="dimension" name="dropdownListPreferredItemHeight"/>
-        <!-- Default Spinner style. -->
+        
         <attr format="reference" name="spinnerDropDownItemStyle"/>
-        <!-- Specifies a drawable to use for the 'home as up' indicator. -->
+        
         <attr format="reference" name="homeAsUpIndicator"/>
 
-        <!-- Default action button style. -->
+        
         <attr format="reference" name="actionButtonStyle"/>
 
-        <!-- Style for button bars -->
+        
         <attr format="reference" name="buttonBarStyle"/>
-        <!-- Style for buttons within button bars -->
+        
         <attr format="reference" name="buttonBarButtonStyle"/>
-        <!-- A style that may be applied to buttons or other selectable items
-             that should react to pressed and focus states, but that do not
-             have a clear visual border along the edges. -->
+        
         <attr format="reference" name="selectableItemBackground"/>
-        <!-- Background drawable for borderless standalone items that need focus/pressed states. -->
+        
         <attr format="reference" name="selectableItemBackgroundBorderless"/>
-        <!-- Style for buttons without an explicit border, often used in groups. -->
+        
         <attr format="reference" name="borderlessButtonStyle"/>
-        <!-- A drawable that may be used as a vertical divider between visual elements. -->
+        
         <attr format="reference" name="dividerVertical"/>
-        <!-- A drawable that may be used as a horizontal divider between visual elements. -->
+        
         <attr format="reference" name="dividerHorizontal"/>
-        <!-- Default ActivityChooserView style. -->
+        
         <attr format="reference" name="activityChooserViewStyle"/>
 
-        <!-- Default Toolbar style. -->
+        
         <attr format="reference" name="toolbarStyle"/>
-        <!-- Default Toolar NavigationButtonStyle -->
+        
         <attr format="reference" name="toolbarNavigationButtonStyle"/>
 
-        <!-- Default PopupMenu style. -->
+        
         <attr format="reference" name="popupMenuStyle"/>
-        <!-- Default PopupWindow style. -->
+        
         <attr format="reference" name="popupWindowStyle"/>
 
-        <!-- EditText text foreground color. -->
+        
         <attr format="reference|color" name="editTextColor"/>
-        <!-- EditText background drawable. -->
+        
         <attr format="reference" name="editTextBackground"/>
 
-        <!-- ImageButton background drawable. -->
+        
         <attr format="reference" name="imageButtonStyle"/>
 
-        <!-- ============================ -->
-        <!-- SearchView styles and assets -->
-        <!-- ============================ -->
+        
+        
+        
         <eat-comment/>
-        <!-- Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color. -->
+        
         <attr format="reference" name="textAppearanceSearchResultTitle"/>
-        <!-- Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color. -->
+        
         <attr format="reference" name="textAppearanceSearchResultSubtitle"/>
-        <!-- Text color for urls in search suggestions, used by things like global search -->
+        
         <attr format="reference|color" name="textColorSearchUrl"/>
-        <!-- Style for the search query widget. -->
+        
         <attr format="reference" name="searchViewStyle"/>
 
-        <!-- =========== -->
-        <!-- List styles -->
-        <!-- =========== -->
+        
+        
+        
         <eat-comment/>
 
-        <!-- The preferred list item height. -->
+        
         <attr format="dimension" name="listPreferredItemHeight"/>
-        <!-- A smaller, sleeker list item height. -->
+        
         <attr format="dimension" name="listPreferredItemHeightSmall"/>
-        <!-- A larger, more robust list item height. -->
+        
         <attr format="dimension" name="listPreferredItemHeightLarge"/>
 
-        <!-- The preferred padding along the left edge of list items. -->
+        
         <attr format="dimension" name="listPreferredItemPaddingLeft"/>
-        <!-- The preferred padding along the right edge of list items. -->
+        
         <attr format="dimension" name="listPreferredItemPaddingRight"/>
 
-        <!-- ListPopupWindow compatibility -->
+        
         <attr format="reference" name="dropDownListViewStyle"/>
         <attr format="reference" name="listPopupWindowStyle"/>
 
-        <!-- The preferred TextAppearance for the primary text of list items. -->
+        
         <attr format="reference" name="textAppearanceListItem"/>
-        <!-- The preferred TextAppearance for the secondary text of list items. -->
+        
         <attr format="reference" name="textAppearanceListItemSecondary"/>
-        <!-- The preferred TextAppearance for the primary text of small list items. -->
+        
         <attr format="reference" name="textAppearanceListItemSmall"/>
 
-        <!-- ============ -->
-        <!-- Panel styles -->
-        <!-- ============ -->
+        
+        
+        
         <eat-comment/>
 
-        <!-- The background of a panel when it is inset from the left and right edges of the screen. -->
+        
         <attr format="reference" name="panelBackground"/>
-        <!-- Default Panel Menu width. -->
+        
         <attr format="dimension" name="panelMenuListWidth"/>
-        <!-- Default Panel Menu style. -->
+        
         <attr format="reference" name="panelMenuListTheme"/>
-        <!-- Drawable used as a background for selected list items. -->
+        
         <attr format="reference" name="listChoiceBackgroundIndicator"/>
 
-        <!-- ============= -->
-        <!-- Color palette -->
-        <!-- ============= -->
+        
+        
+        
         <eat-comment/>
 
-        <!-- The primary branding color for the app. By default, this is the color applied to the
-             action bar background. -->
+        
         <attr format="color" name="colorPrimary"/>
 
-        <!-- Dark variant of the primary branding color. By default, this is the color applied to
-             the status bar (via statusBarColor) and navigation bar (via navigationBarColor). -->
+        
         <attr format="color" name="colorPrimaryDark"/>
 
-        <!-- Bright complement to the primary branding color. By default, this is the color applied
-             to framework controls (via colorControlActivated). -->
+        
         <attr format="color" name="colorAccent"/>
 
-        <!-- The color applied to framework controls in their normal state. -->
+        
         <attr format="color" name="colorControlNormal"/>
 
-        <!-- The color applied to framework controls in their activated (ex. checked) state. -->
+        
         <attr format="color" name="colorControlActivated"/>
 
-        <!-- The color applied to framework control highlights (ex. ripples, list selectors). -->
+        
         <attr format="color" name="colorControlHighlight"/>
 
-        <!-- The color applied to framework buttons in their normal state. -->
+        
         <attr format="color" name="colorButtonNormal"/>
 
-        <!-- The color applied to framework switch thumbs in their normal state. -->
+        
         <attr format="color" name="colorSwitchThumbNormal"/>
 
-        <!-- The background used by framework controls. -->
+        
         <attr format="reference" name="controlBackground"/>
 
-        <!-- Default color of background imagery for floating components, ex. dialogs, popups, and cards. -->
+        
         <attr format="color" name="colorBackgroundFloating"/>
 
-        <!-- ============ -->
-        <!-- Alert Dialog styles -->
-        <!-- ============ -->
+        
+        
+        
         <eat-comment/>
         <attr format="reference" name="alertDialogStyle"/>
         <attr format="reference" name="alertDialogButtonGroupStyle"/>
         <attr format="boolean" name="alertDialogCenterButtons"/>
-        <!-- Theme to use for alert dialogs spawned from this theme. -->
+        
         <attr format="reference" name="alertDialogTheme"/>
 
-        <!-- Color of list item text in alert dialogs. -->
+        
         <attr format="reference|color" name="textColorAlertDialogListItem"/>
 
-        <!-- Style for the "positive" buttons within button bars -->
+        
         <attr format="reference" name="buttonBarPositiveButtonStyle"/>
 
-        <!-- Style for the "negative" buttons within button bars -->
+        
         <attr format="reference" name="buttonBarNegativeButtonStyle"/>
 
-        <!-- Style for the "neutral" buttons within button bars -->
+        
         <attr format="reference" name="buttonBarNeutralButtonStyle"/>
 
-        <!-- ===================== -->
-        <!-- Default widget styles -->
-        <!-- ===================== -->
+        
+        
+        
         <eat-comment/>
 
-        <!-- Default AutoCompleteTextView style. -->
+        
         <attr format="reference" name="autoCompleteTextViewStyle"/>
-        <!-- Normal Button style. -->
+        
         <attr format="reference" name="buttonStyle"/>
-        <!-- Small Button style. -->
+        
         <attr format="reference" name="buttonStyleSmall"/>
-        <!-- Default Checkbox style. -->
+        
         <attr format="reference" name="checkboxStyle"/>
-        <!-- Default CheckedTextView style. -->
+        
         <attr format="reference" name="checkedTextViewStyle"/>
-        <!-- Default EditText style. -->
+        
         <attr format="reference" name="editTextStyle"/>
-        <!-- Default RadioButton style. -->
+        
         <attr format="reference" name="radioButtonStyle"/>
-        <!-- Default RatingBar style. -->
+        
         <attr format="reference" name="ratingBarStyle"/>
-        <!-- Indicator RatingBar style. -->
+        
         <attr format="reference" name="ratingBarStyleIndicator"/>
-        <!-- Small indicator RatingBar style. -->
+        
         <attr format="reference" name="ratingBarStyleSmall"/>
-        <!-- Default SeekBar style. -->
+        
         <attr format="reference" name="seekBarStyle"/>
-        <!-- Default Spinner style. -->
+        
         <attr format="reference" name="spinnerStyle"/>
-        <!-- Default style for the Switch widget. -->
+        
         <attr format="reference" name="switchStyle"/>
 
-        <!-- Default menu-style ListView style. -->
+        
         <attr format="reference" name="listMenuViewStyle"/>
 
-        <!-- ===================== -->
-        <!-- Tooltip styles -->
-        <!-- ===================== -->
+        
+        
+        
         <eat-comment/>
 
-        <!-- Background to use for tooltips -->
+        
         <attr format="reference" name="tooltipFrameBackground"/>
-        <!-- Foreground color to use for tooltips -->
+        
         <attr format="reference|color" name="tooltipForegroundColor"/>
 
-        <!-- Color used for error states and things that need to be drawn to
-             the user's attention. -->
+        
         <attr format="reference|color" name="colorError"/>
 
         <attr format="string" name="viewInflaterClass"/>
@@ -3646,36 +3529,35 @@
       <enum name="auto" value="-1"/>
     </attr><attr format="boolean" name="behavior_hideable"/><attr format="boolean" name="behavior_skipCollapsed"/><attr format="boolean" name="behavior_fitToContents"/></declare-styleable>
     <declare-styleable name="ButtonBarLayout">
-        <!-- Whether to automatically stack the buttons when there is not
-             enough space to lay them out side-by-side. -->
+        
         <attr format="boolean" name="allowStacking"/>
     </declare-styleable>
     <declare-styleable name="CardView">
-        <!-- Background color for CardView. -->
+        
         <attr format="color" name="cardBackgroundColor"/>
-        <!-- Corner radius for CardView. -->
+        
         <attr format="dimension" name="cardCornerRadius"/>
-        <!-- Elevation for CardView. -->
+        
         <attr format="dimension" name="cardElevation"/>
-        <!-- Maximum Elevation for CardView. -->
+        
         <attr format="dimension" name="cardMaxElevation"/>
-        <!-- Add padding in API v21+ as well to have the same measurements with previous versions. -->
+        
         <attr format="boolean" name="cardUseCompatPadding"/>
-        <!-- Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners. -->
+        
         <attr format="boolean" name="cardPreventCornerOverlap"/>
-        <!-- Inner padding between the edges of the Card and children of the CardView. -->
+        
         <attr format="dimension" name="contentPadding"/>
-        <!-- Inner padding between the left edge of the Card and children of the CardView. -->
+        
         <attr format="dimension" name="contentPaddingLeft"/>
-        <!-- Inner padding between the right edge of the Card and children of the CardView. -->
+        
         <attr format="dimension" name="contentPaddingRight"/>
-        <!-- Inner padding between the top edge of the Card and children of the CardView. -->
+        
         <attr format="dimension" name="contentPaddingTop"/>
-        <!-- Inner padding between the bottom edge of the Card and children of the CardView. -->
+        
         <attr format="dimension" name="contentPaddingBottom"/>
-        <!-- Workaround to read user defined minimum width -->
+        
         <attr name="android:minWidth"/>
-        <!-- Workaround to read user defined minimum height -->
+        
         <attr name="android:minHeight"/>
     </declare-styleable>
     <declare-styleable name="Chip"><attr format="color" name="chipBackgroundColor"/><attr format="dimension" name="chipMinHeight"/><attr format="dimension" name="chipCornerRadius"/><attr format="color" name="chipStrokeColor"/><attr format="dimension" name="chipStrokeWidth"/><attr name="rippleColor"/><attr name="android:text"/><attr name="android:textAppearance"/><attr name="android:ellipsize"/><attr name="android:maxWidth"/><attr format="boolean" name="chipIconVisible"/><attr format="boolean" name="chipIconEnabled"/><attr format="reference" name="chipIcon"/><attr format="color" name="chipIconTint"/><attr format="dimension" name="chipIconSize"/><attr format="boolean" name="closeIconVisible"/><attr format="boolean" name="closeIconEnabled"/><attr format="reference" name="closeIcon"/><attr format="color" name="closeIconTint"/><attr format="dimension" name="closeIconSize"/><attr name="android:checkable"/><attr format="boolean" name="checkedIconVisible"/><attr format="boolean" name="checkedIconEnabled"/><attr format="reference" name="checkedIcon"/><attr name="showMotionSpec"/><attr name="hideMotionSpec"/><attr format="dimension" name="chipStartPadding"/><attr format="dimension" name="iconStartPadding"/><attr format="dimension" name="iconEndPadding"/><attr format="dimension" name="textStartPadding"/><attr format="dimension" name="textEndPadding"/><attr format="dimension" name="closeIconStartPadding"/><attr format="dimension" name="closeIconEndPadding"/><attr format="dimension" name="chipEndPadding"/></declare-styleable>
@@ -3732,154 +3614,134 @@
       <enum name="parallax" value="2"/>
     </attr><attr format="float" name="layout_collapseParallaxMultiplier"/></declare-styleable>
     <declare-styleable name="ColorStateListItem">
-        <!-- Base color for this state. -->
+        
         <attr name="android:color"/>
-        <!-- Alpha multiplier applied to the base color. -->
+        
         <attr format="float" name="alpha"/>
         <attr name="android:alpha"/>
     </declare-styleable>
     <declare-styleable name="CompoundButton">
         <attr name="android:button"/>
-        <!-- Tint to apply to the button drawable. -->
+        
         <attr format="color" name="buttonTint"/>
 
-        <!-- Blending mode used to apply the button tint. -->
+        
         <attr name="buttonTintMode">
-            <!-- The tint is drawn on top of the drawable.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the drawable with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and icon color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
     <declare-styleable name="CoordinatorLayout">
-        <!-- A reference to an array of integers representing the
-             locations of horizontal keylines in dp from the starting edge.
-             Child views can refer to these keylines for alignment using
-             layout_keyline="index" where index is a 0-based index into
-             this array. -->
+        
         <attr format="reference" name="keylines"/>
-        <!-- Drawable to display behind the status bar when the view is set to draw behind it. -->
+        
         <attr format="color|reference" name="statusBarBackground"/>
     </declare-styleable>
     <declare-styleable name="CoordinatorLayout_Layout">
         <attr name="android:layout_gravity"/>
-        <!-- The class name of a Behavior class defining special runtime behavior
-             for this child view. -->
+        
         <attr format="string" name="layout_behavior"/>
-        <!-- The id of an anchor view that this view should position relative to. -->
+        
         <attr format="reference" name="layout_anchor"/>
-        <!-- The index of a keyline this view should position relative to.
-             android:layout_gravity will affect how the view aligns to the
-             specified keyline. -->
+        
         <attr format="integer" name="layout_keyline"/>
 
-        <!-- Specifies how an object should position relative to an anchor, on both the X and Y axes,
-             within its parent's bounds.  -->
+        
         <attr name="layout_anchorGravity">
-            <!-- Push object to the top of its container, not changing its size. -->
+            
             <flag name="top" value="0x30"/>
-            <!-- Push object to the bottom of its container, not changing its size. -->
+            
             <flag name="bottom" value="0x50"/>
-            <!-- Push object to the left of its container, not changing its size. -->
+            
             <flag name="left" value="0x03"/>
-            <!-- Push object to the right of its container, not changing its size. -->
+            
             <flag name="right" value="0x05"/>
-            <!-- Place object in the vertical center of its container, not changing its size. -->
+            
             <flag name="center_vertical" value="0x10"/>
-            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            
             <flag name="fill_vertical" value="0x70"/>
-            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            
             <flag name="center_horizontal" value="0x01"/>
-            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            
             <flag name="fill_horizontal" value="0x07"/>
-            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            
             <flag name="center" value="0x11"/>
-            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            
             <flag name="fill" value="0x77"/>
-            <!-- Additional option that can be set to have the top and/or bottom edges of
-                 the child clipped to its container's bounds.
-                 The clip will be based on the vertical gravity: a top gravity will clip the bottom
-                 edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            
             <flag name="clip_vertical" value="0x80"/>
-            <!-- Additional option that can be set to have the left and/or right edges of
-                 the child clipped to its container's bounds.
-                 The clip will be based on the horizontal gravity: a left gravity will clip the right
-                 edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            
             <flag name="clip_horizontal" value="0x08"/>
-            <!-- Push object to the beginning of its container, not changing its size. -->
+            
             <flag name="start" value="0x00800003"/>
-            <!-- Push object to the end of its container, not changing its size. -->
+            
             <flag name="end" value="0x00800005"/>
         </attr>
 
-        <!-- Specifies how this view insets the CoordinatorLayout and make some other views
-             dodge it. -->
+        
         <attr format="enum" name="layout_insetEdge">
-            <!-- Don't inset. -->
+            
             <enum name="none" value="0x0"/>
-            <!-- Inset the top edge. -->
+            
             <enum name="top" value="0x30"/>
-            <!-- Inset the bottom edge. -->
+            
             <enum name="bottom" value="0x50"/>
-            <!-- Inset the left edge. -->
+            
             <enum name="left" value="0x03"/>
-            <!-- Inset the right edge. -->
+            
             <enum name="right" value="0x05"/>
-            <!-- Inset the start edge. -->
+            
             <enum name="start" value="0x00800003"/>
-            <!-- Inset the end edge. -->
+            
             <enum name="end" value="0x00800005"/>
         </attr>
-        <!-- Specifies how this view dodges the inset edges of the CoordinatorLayout. -->
+        
         <attr name="layout_dodgeInsetEdges">
-            <!-- Don't dodge any edges -->
+            
             <flag name="none" value="0x0"/>
-            <!-- Dodge the top inset edge. -->
+            
             <flag name="top" value="0x30"/>
-            <!-- Dodge the bottom inset edge. -->
+            
             <flag name="bottom" value="0x50"/>
-            <!-- Dodge the left inset edge. -->
+            
             <flag name="left" value="0x03"/>
-            <!-- Dodge the right inset edge. -->
+            
             <flag name="right" value="0x05"/>
-            <!-- Dodge the start inset edge. -->
+            
             <flag name="start" value="0x00800003"/>
-            <!-- Dodge the end inset edge. -->
+            
             <flag name="end" value="0x00800005"/>
-            <!-- Dodge all the inset edges. -->
+            
             <flag name="all" value="0x77"/>
         </attr>
     </declare-styleable>
     <declare-styleable name="DesignTheme"><attr name="bottomSheetDialogTheme"/><attr name="bottomSheetStyle"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle">
-        <!-- The drawing color for the bars -->
+        
         <attr format="color" name="color"/>
-        <!-- Whether bars should rotate or not during transition -->
+        
         <attr format="boolean" name="spinBars"/>
-        <!-- The total size of the drawable -->
+        
         <attr format="dimension" name="drawableSize"/>
-        <!-- The max gap between the bars when they are parallel to each other -->
+        
         <attr format="dimension" name="gapBetweenBars"/>
-        <!-- The length of the arrow head when formed to make an arrow -->
+        
         <attr format="dimension" name="arrowHeadLength"/>
-        <!-- The length of the shaft when formed to make an arrow -->
+        
         <attr format="dimension" name="arrowShaftLength"/>
-        <!-- The length of the bars when they are parallel to each other -->
+        
         <attr format="dimension" name="barLength"/>
-        <!-- The thickness (stroke size) for the bar paint -->
+        
         <attr format="dimension" name="thickness"/>
     </declare-styleable>
     <declare-styleable name="FloatingActionButton"><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr name="rippleColor"/><attr name="fabSize">
@@ -3893,74 +3755,42 @@
     <declare-styleable name="FloatingActionButton_Behavior_Layout"><attr format="boolean" name="behavior_autoHide"/></declare-styleable>
     <declare-styleable name="FlowLayout"><attr format="dimension" name="itemSpacing"/><attr format="dimension" name="lineSpacing"/></declare-styleable>
     <declare-styleable name="FontFamily">
-        <!-- The authority of the Font Provider to be used for the request. -->
+        
         <attr format="string" name="fontProviderAuthority"/>
-        <!-- The package for the Font Provider to be used for the request. This is used to verify
-        the identity of the provider. -->
+        
         <attr format="string" name="fontProviderPackage"/>
-        <!-- The query to be sent over to the provider. Refer to your font provider's documentation
-        on the format of this string. -->
+        
         <attr format="string" name="fontProviderQuery"/>
-        <!-- The sets of hashes for the certificates the provider should be signed with. This is
-        used to verify the identity of the provider, and is only required if the provider is not
-        part of the system image. This value may point to one list or a list of lists, where each
-        individual list represents one collection of signature hashes. Refer to your font provider's
-        documentation for these values. -->
+        
         <attr format="reference" name="fontProviderCerts"/>
-        <!-- The strategy to be used when fetching font data from a font provider in XML layouts.
-        This attribute is ignored when the resource is loaded from code, as it is equivalent to the
-        choice of API between {@link
-    androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
-        {@link
-    androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
-        (async). -->
+        
         <attr name="fontProviderFetchStrategy">
-            <!-- The blocking font fetch works as follows.
-              First, check the local cache, then if the requested font is not cached, request the
-              font from the provider and wait until it is finished.  You can change the length of
-              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
-              default typeface will be used instead. -->
+            
             <enum name="blocking" value="0"/>
-            <!-- The async font fetch works as follows.
-              First, check the local cache, then if the requeted font is not cached, trigger a
-              request the font and continue with layout inflation. Once the font fetch succeeds, the
-              target text view will be refreshed with the downloaded font data. The
-              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            
             <enum name="async" value="1"/>
         </attr>
-        <!-- The length of the timeout during fetching. -->
+        
         <attr format="integer" name="fontProviderFetchTimeout">
-            <!-- A special value for the timeout. In this case, the blocking font fetching will not
-              timeout and wait until a reply is received from the font provider. -->
+            
             <enum name="forever" value="-1"/>
         </attr>
     </declare-styleable>
     <declare-styleable name="FontFamilyFont">
-        <!-- The style of the given font file. This will be used when the font is being loaded into
-         the font stack and will override any style information in the font's header tables. If
-         unspecified, the value in the font's header tables will be used. -->
+        
         <attr name="fontStyle">
             <enum name="normal" value="0"/>
             <enum name="italic" value="1"/>
         </attr>
-        <!-- The reference to the font file to be used. This should be a file in the res/font folder
-         and should therefore have an R reference value. E.g. @font/myfont -->
+        
         <attr format="reference" name="font"/>
-        <!-- The weight of the given font file. This will be used when the font is being loaded into
-         the font stack and will override any weight information in the font's header tables. Must
-         be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
-         common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
-         in the font's header tables will be used. -->
+        
         <attr format="integer" name="fontWeight"/>
-        <!-- The variation settings to be applied to the font. The string should be in the following
-         format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
-         used, or the font used does not support variation settings, this attribute needs not be
-         specified. -->
+        
         <attr format="string" name="fontVariationSettings"/>
-        <!-- The index of the font in the tcc font file. If the font file referenced is not in the
-        tcc format, this attribute needs not be specified. -->
+        
         <attr format="integer" name="ttcIndex"/>
-        <!-- References to the framework attrs -->
+        
         <attr name="android:fontStyle"/>
         <attr name="android:font"/>
         <attr name="android:fontWeight"/>
@@ -3969,83 +3799,66 @@
     </declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
     <declare-styleable name="GradientColor">
-        <!-- Start color of the gradient. -->
+        
         <attr name="android:startColor"/>
-        <!-- Optional center color. -->
+        
         <attr name="android:centerColor"/>
-        <!-- End color of the gradient. -->
+        
         <attr name="android:endColor"/>
-        <!-- Type of gradient. The default type is linear. -->
+        
         <attr name="android:type"/>
 
-        <!-- Only applied to RadialGradient-->
-        <!-- Radius of the gradient, used only with radial gradient. -->
+        
+        
         <attr name="android:gradientRadius"/>
 
-        <!-- Only applied to SweepGradient / RadialGradient-->
-        <!-- X coordinate of the center of the gradient within the path. -->
+        
+        
         <attr name="android:centerX"/>
-        <!-- Y coordinate of the center of the gradient within the path. -->
+        
         <attr name="android:centerY"/>
 
-        <!-- LinearGradient specific -->
-        <!-- X coordinate of the start point origin of the gradient.
-             Defined in same coordinates as the path itself -->
+        
+        
         <attr name="android:startX"/>
-        <!-- Y coordinate of the start point of the gradient within the shape.
-             Defined in same coordinates as the path itself -->
+        
         <attr name="android:startY"/>
-        <!-- X coordinate of the end point origin of the gradient.
-             Defined in same coordinates as the path itself -->
+        
         <attr name="android:endX"/>
-        <!-- Y coordinate of the end point of the gradient within the shape.
-             Defined in same coordinates as the path itself -->
+        
         <attr name="android:endY"/>
 
-        <!-- Defines the tile mode of the gradient. SweepGradient doesn't support tiling. -->
+        
         <attr name="android:tileMode"/>
     </declare-styleable>
     <declare-styleable name="GradientColorItem">
-        <!-- The offset (or ratio) of this current color item inside the gradient.
-             The value is only meaningful when it is between 0 and 1. -->
+        
         <attr name="android:offset"/>
-        <!-- The current color for the offset inside the gradient. -->
+        
         <attr name="android:color"/>
     </declare-styleable>
     <declare-styleable name="LinearLayoutCompat">
-        <!-- Should the layout be a column or a row?  Use "horizontal"
-             for a row, "vertical" for a column.  The default is
-             horizontal. -->
+        
         <attr name="android:orientation"/>
         <attr name="android:gravity"/>
-        <!-- When set to false, prevents the layout from aligning its children's
-             baselines. This attribute is particularly useful when the children
-             use different values for gravity. The default value is true. -->
+        
         <attr name="android:baselineAligned"/>
-        <!-- When a linear layout is part of another layout that is baseline
-          aligned, it can specify which of its children to baseline align to
-          (that is, which child TextView).-->
+        
         <attr name="android:baselineAlignedChildIndex"/>
-        <!-- Defines the maximum weight sum. If unspecified, the sum is computed
-             by adding the layout_weight of all of the children. This can be
-             used for instance to give a single child 50% of the total available
-             space by giving it a layout_weight of 0.5 and setting the weightSum
-             to 1.0. -->
+        
         <attr name="android:weightSum"/>
-        <!-- When set to true, all children with a weight will be considered having
-             the minimum size of the largest child. If false, all children are
-             measured normally. -->
+        
         <attr format="boolean" name="measureWithLargestChild"/>
-        <!-- Drawable to use as a vertical divider between buttons. -->
+        
         <attr name="divider"/>
-        <!-- Setting for which dividers to show. -->
+        
         <attr name="showDividers">
             <flag name="none" value="0"/>
             <flag name="beginning" value="1"/>
             <flag name="middle" value="2"/>
             <flag name="end" value="4"/>
         </attr>
-        <!-- Size of padding on either end of a divider. -->
+        
         <attr format="dimension" name="dividerPadding"/>
     </declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout">
@@ -4055,9 +3868,9 @@
         <attr name="android:layout_gravity"/>
     </declare-styleable>
     <declare-styleable name="ListPopupWindow">
-        <!-- Amount of pixels by which the drop down should be offset vertically. -->
+        
         <attr name="android:dropDownVerticalOffset"/>
-        <!-- Amount of pixels by which the drop down should be offset horizontally. -->
+        
         <attr name="android:dropDownHorizontalOffset"/>
     </declare-styleable>
     <declare-styleable name="MaterialButton"><attr name="android:insetLeft"/><attr name="android:insetRight"/><attr name="android:insetTop"/><attr name="android:insetBottom"/><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr format="reference" name="icon"/><attr format="dimension" name="iconSize"/><attr format="dimension" name="iconPadding"/><attr name="iconGravity">
@@ -4070,57 +3883,49 @@
     <declare-styleable name="MaterialComponentsTheme"><attr name="colorAccent"/><attr name="colorPrimary"/><attr name="colorPrimaryDark"/><attr name="colorSecondary"/><attr name="scrimBackground"/><attr name="colorBackgroundFloating"/><attr name="bottomSheetDialogTheme"/><attr name="bottomSheetStyle"/><attr name="materialButtonStyle"/><attr name="chipGroupStyle"/><attr name="chipStyle"/><attr name="chipStandaloneStyle"/><attr name="editTextStyle"/><attr name="floatingActionButtonStyle"/><attr name="materialCardViewStyle"/><attr name="navigationViewStyle"/><attr name="tabStyle"/><attr name="textInputStyle"/><attr name="snackbarButtonStyle"/><attr name="textAppearanceHeadline1"/><attr name="textAppearanceHeadline2"/><attr name="textAppearanceHeadline3"/><attr name="textAppearanceHeadline4"/><attr name="textAppearanceHeadline5"/><attr name="textAppearanceHeadline6"/><attr name="textAppearanceSubtitle1"/><attr name="textAppearanceSubtitle2"/><attr name="textAppearanceBody1"/><attr name="textAppearanceBody2"/><attr name="textAppearanceCaption"/><attr name="textAppearanceButton"/><attr name="textAppearanceOverline"/></declare-styleable>
     <declare-styleable name="MenuGroup">
 
-        <!-- The ID of the group. -->
+        
         <attr name="android:id"/>
 
-        <!-- The category applied to all items within this group.
-             (This will be or'ed with the orderInCategory attribute.) -->
+        
         <attr name="android:menuCategory"/>
 
-        <!-- The order within the category applied to all items within this group.
-             (This will be or'ed with the category attribute.) -->
+        
         <attr name="android:orderInCategory"/>
 
-        <!-- Whether the items are capable of displaying a check mark. -->
+        
         <attr name="android:checkableBehavior"/>
 
-        <!-- Whether the items are shown/visible. -->
+        
         <attr name="android:visible"/>
 
-        <!-- Whether the items are enabled. -->
+        
         <attr name="android:enabled"/>
 
     </declare-styleable>
     <declare-styleable name="MenuItem">
 
-        <!-- The ID of the item. -->
+        
         <attr name="android:id"/>
 
-        <!-- The category applied to the item.
-             (This will be or'ed with the orderInCategory attribute.) -->
+        
         <attr name="android:menuCategory"/>
 
-        <!-- The order within the category applied to the item.
-             (This will be or'ed with the category attribute.) -->
+        
         <attr name="android:orderInCategory"/>
 
-        <!-- The title associated with the item. -->
+        
         <attr name="android:title"/>
 
-        <!-- The condensed title associated with the item.  This is used in situations where the
-             normal title may be too long to be displayed. -->
+        
         <attr name="android:titleCondensed"/>
 
-        <!-- The icon associated with this item.  This icon will not always be shown, so
-             the title should be sufficient in describing this item. -->
+        
         <attr name="android:icon"/>
 
-        <!-- The alphabetic shortcut key.  This is the shortcut when using a keyboard
-             with alphabetic keys. -->
+        
         <attr name="android:alphabeticShortcut"/>
 
-        <!-- The alphabetic modifier key. This is the modifier when using a keyboard
-            with alphabetic keys. The values should be kept in sync with KeyEvent -->
+        
         <attr name="alphabeticModifiers">
             <flag name="META" value="0x10000"/>
             <flag name="CTRL" value="0x1000"/>
@@ -4130,12 +3935,10 @@
             <flag name="FUNCTION" value="0x8"/>
         </attr>
 
-        <!-- The numeric shortcut key.  This is the shortcut when using a numeric (e.g., 12-key)
-             keyboard. -->
+        
         <attr name="android:numericShortcut"/>
 
-        <!-- The numeric modifier key. This is the modifier when using a numeric (e.g., 12-key)
-            keyboard. The values should be kept in sync with KeyEvent -->
+        
         <attr name="numericModifiers">
             <flag name="META" value="0x10000"/>
             <flag name="CTRL" value="0x1000"/>
@@ -4145,145 +3948,114 @@
             <flag name="FUNCTION" value="0x8"/>
         </attr>
 
-        <!-- Whether the item is capable of displaying a check mark. -->
+        
         <attr name="android:checkable"/>
 
-        <!-- Whether the item is checked.  Note that you must first have enabled checking with
-             the checkable attribute or else the check mark will not appear. -->
+        
         <attr name="android:checked"/>
 
-        <!-- Whether the item is shown/visible. -->
+        
         <attr name="android:visible"/>
 
-        <!-- Whether the item is enabled. -->
+        
         <attr name="android:enabled"/>
 
-        <!-- Name of a method on the Context used to inflate the menu that will be
-             called when the item is clicked. -->
+        
         <attr name="android:onClick"/>
 
-        <!-- How this item should display in the Action Bar, if present. -->
+        
         <attr name="showAsAction">
-            <!-- Never show this item in an action bar, show it in the overflow menu instead.
-                 Mutually exclusive with "ifRoom" and "always". -->
+            
             <flag name="never" value="0"/>
-            <!-- Show this item in an action bar if there is room for it as determined
-                 by the system. Favor this option over "always" where possible.
-                 Mutually exclusive with "never" and "always". -->
+            
             <flag name="ifRoom" value="1"/>
-            <!-- Always show this item in an actionbar, even if it would override
-                 the system's limits of how much stuff to put there. This may make
-                 your action bar look bad on some screens. In most cases you should
-                 use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never". -->
+            
             <flag name="always" value="2"/>
-            <!-- When this item is shown as an action in the action bar, show a text
-                 label with it even if it has an icon representation. -->
+            
             <flag name="withText" value="4"/>
-            <!-- This item's action view collapses to a normal menu
-                 item. When expanded, the action view takes over a
-                 larger segment of its container. -->
+            
             <flag name="collapseActionView" value="8"/>
         </attr>
 
-        <!-- An optional layout to be used as an action view.
-             See {@link android.view.MenuItem#setActionView(android.view.View)}
-             for more info. -->
+        
         <attr format="reference" name="actionLayout"/>
 
-        <!-- The name of an optional View class to instantiate and use as an
-             action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
-             for more info. -->
+        
         <attr format="string" name="actionViewClass"/>
 
-        <!-- The name of an optional ActionProvider class to instantiate an action view
-             and perform operations such as default action for that menu item.
-             See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
-             for more info. -->
+        
         <attr format="string" name="actionProviderClass"/>
 
-        <!-- The content description associated with the item. -->
+        
         <attr format="string" name="contentDescription"/>
 
-        <!-- The tooltip text associated with the item. -->
+        
         <attr format="string" name="tooltipText"/>
 
-        <!-- Tint to apply to the icon. -->
+        
         <attr format="color" name="iconTint"/>
 
-        <!-- Blending mode used to apply the icon tint. -->
+        
         <attr name="iconTintMode">
-            <!-- The tint is drawn on top of the icon.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the icon. The icon’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the icon, but with the icon’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the icon with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and icon color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
 
     </declare-styleable>
     <declare-styleable name="MenuView">
-        <!-- Default appearance of menu item text. -->
+        
         <attr name="android:itemTextAppearance"/>
-        <!-- Default horizontal divider between rows of menu items. -->
+        
         <attr name="android:horizontalDivider"/>
-        <!-- Default vertical divider between menu items. -->
+        
         <attr name="android:verticalDivider"/>
-        <!-- Default background for the menu header. -->
+        
         <attr name="android:headerBackground"/>
-        <!-- Default background for each menu item. -->
+        
         <attr name="android:itemBackground"/>
-        <!-- Default animations for the menu. -->
+        
         <attr name="android:windowAnimationStyle"/>
-        <!-- Default disabled icon alpha for each menu item that shows an icon. -->
+        
         <attr name="android:itemIconDisabledAlpha"/>
-        <!-- Whether space should be reserved in layout when an icon is missing. -->
+        
         <attr format="boolean" name="preserveIconSpacing"/>
-        <!-- Drawable for the arrow icon indicating a particular item is a submenu. -->
+        
         <attr format="reference" name="subMenuArrow"/>
     </declare-styleable>
     <declare-styleable name="NavigationView"><attr name="android:background"/><attr name="android:fitsSystemWindows"/><attr name="android:maxWidth"/><attr name="elevation"/><attr format="reference" name="menu"/><attr format="color" name="itemIconTint"/><attr format="color" name="itemTextColor"/><attr format="reference" name="itemBackground"/><attr format="reference" name="itemTextAppearance"/><attr format="reference" name="headerLayout"/><attr format="dimension" name="itemHorizontalPadding"/><attr format="dimension" name="itemIconPadding"/></declare-styleable>
     <declare-styleable name="PopupWindow">
-        <!-- Whether the popup window should overlap its anchor view. -->
+        
         <attr format="boolean" name="overlapAnchor"/>
         <attr name="android:popupBackground"/>
         <attr name="android:popupAnimationStyle"/>
     </declare-styleable>
     <declare-styleable name="PopupWindowBackgroundState">
-        <!-- State identifier indicating the popup will be above the anchor. -->
+        
         <attr format="boolean" name="state_above_anchor"/>
     </declare-styleable>
     <declare-styleable name="RecycleListView">
-        <!-- Bottom padding to use when no buttons are present. -->
+        
         <attr format="dimension" name="paddingBottomNoButtons"/>
-        <!-- Top padding to use when no title is present. -->
+        
         <attr format="dimension" name="paddingTopNoTitle"/>
     </declare-styleable>
     <declare-styleable name="RecyclerView">
-        <!-- Class name of the Layout Manager to be used.
-        <p/>
-        The class must extandroidx.recyclerview.widget.RecyclerViewView$LayoutManager
-        and have either a default constructor or constructor with the signature
-        (android.content.Context, android.util.AttributeSet, int, int).
-         <p/>
-         If the name starts with a '.', application package is prefixed.
-         Else, if the name contains a '.', the classname is assumed to be a full class name.
-         Else, the recycler view package naandroidx.appcompat.widgetdget) is prefixed. -->
+        
         <attr format="string" name="layoutManager"/>
 
-        <!-- ============================= -->
-        <!-- Attributes for Layout Manager -->
-        <!-- ============================= -->
+        
+        
+        
         <eat-comment/>
 
         <attr name="android:orientation"/>
@@ -4300,152 +4072,128 @@
     <declare-styleable name="ScrimInsetsFrameLayout"><attr format="color|reference" name="insetForeground"/></declare-styleable>
     <declare-styleable name="ScrollingViewBehavior_Layout"><attr format="dimension" name="behavior_overlapTop"/></declare-styleable>
     <declare-styleable name="SearchView">
-        <!-- The layout to use for the search view. -->
+        
         <attr format="reference" name="layout"/>
-        <!-- The default state of the SearchView. If true, it will be iconified when not in
-             use and expanded when clicked. -->
+        
         <attr format="boolean" name="iconifiedByDefault"/>
-        <!-- An optional maximum width of the SearchView. -->
+        
         <attr name="android:maxWidth"/>
-        <!-- An optional user-defined query hint string to be displayed in the empty query field. -->
+        
         <attr format="string" name="queryHint"/>
-        <!-- Default query hint used when {@code queryHint} is undefined and
-             the search view's {@code SearchableInfo} does not provide a hint. -->
+        
         <attr format="string" name="defaultQueryHint"/>
-        <!-- The IME options to set on the query text field. -->
+        
         <attr name="android:imeOptions"/>
-        <!-- The input type to set on the query text field. -->
+        
         <attr name="android:inputType"/>
-        <!-- Close button icon -->
+        
         <attr format="reference" name="closeIcon"/>
-        <!-- Go button icon -->
+        
         <attr format="reference" name="goIcon"/>
-        <!-- Search icon -->
+        
         <attr format="reference" name="searchIcon"/>
-        <!-- Search icon displayed as a text field hint -->
+        
         <attr format="reference" name="searchHintIcon"/>
-        <!-- Voice button icon -->
+        
         <attr format="reference" name="voiceIcon"/>
-        <!-- Commit icon shown in the query suggestion row -->
+        
         <attr format="reference" name="commitIcon"/>
-        <!-- Layout for query suggestion rows -->
+        
         <attr format="reference" name="suggestionRowLayout"/>
-        <!-- Background for the section containing the search query -->
+        
         <attr format="reference" name="queryBackground"/>
-        <!-- Background for the section containing the action (e.g. voice search) -->
+        
         <attr format="reference" name="submitBackground"/>
         <attr name="android:focusable"/>
     </declare-styleable>
     <declare-styleable name="Snackbar"><attr format="reference" name="snackbarStyle"/><attr format="reference" name="snackbarButtonStyle"/></declare-styleable>
     <declare-styleable name="SnackbarLayout"><attr name="android:maxWidth"/><attr name="elevation"/><attr format="dimension" name="maxActionInlineWidth"/></declare-styleable>
     <declare-styleable name="Spinner">
-        <!-- The prompt to display when the spinner's dialog is shown. -->
+        
         <attr name="android:prompt"/>
-        <!-- Theme to use for the drop-down or dialog popup window. -->
+        
         <attr name="popupTheme"/>
-        <!-- Background drawable to use for the dropdown in spinnerMode="dropdown". -->
+        
         <attr name="android:popupBackground"/>
-        <!-- Width of the dropdown in spinnerMode="dropdown". -->
+        
         <attr name="android:dropDownWidth"/>
-        <!-- Reference to an array resource that will populate the Spinner. -->
+        
         <attr name="android:entries"/>
     </declare-styleable>
     <declare-styleable name="StateListDrawable">
-        <!-- Indicates whether the drawable should be initially visible. -->
+        
         <attr name="android:visible"/>
-        <!-- If true, allows the drawable's padding to change based on the
-             current state that is selected.  If false, the padding will
-             stay the same (based on the maximum padding of all the states).
-             Enabling this feature requires that the owner of the drawable
-             deal with performing layout when the state changes, which is
-             often not supported. -->
+        
         <attr name="android:variablePadding"/>
-        <!-- If true, the drawable's reported internal size will remain
-             constant as the state changes; the size is the maximum of all
-             of the states.  If false, the size will vary based on the
-             current state. -->
+        
         <attr name="android:constantSize"/>
-        <!-- Enables or disables dithering of the bitmap if the bitmap does not have the
-             same pixel configuration as the screen (for instance: a ARGB 8888 bitmap with
-             an RGB 565 screen). -->
+        
         <attr name="android:dither"/>
-        <!-- Amount of time (in milliseconds) to fade in a new state drawable. -->
+        
         <attr name="android:enterFadeDuration"/>
-        <!-- Amount of time (in milliseconds) to fade out an old state drawable. -->
+        
         <attr name="android:exitFadeDuration"/>
-        <!-- Indicates if the drawable needs to be mirrored when its layout direction is
-             RTL (right-to-left). -->
-        <!--<attr name="autoMirrored"/>-->
+        
+        
     </declare-styleable>
     <declare-styleable name="StateListDrawableItem">
-        <!-- Reference to a drawable resource to use for the state. If not
-             given, the drawable must be defined by the first child tag. -->
+        
         <attr name="android:drawable"/>
     </declare-styleable>
     <declare-styleable name="SwitchCompat">
-        <!-- Drawable to use as the "thumb" that switches back and forth. -->
+        
         <attr name="android:thumb"/>
-        <!-- Tint to apply to the thumb drawable. -->
+        
         <attr format="color" name="thumbTint"/>
-        <!-- Blending mode used to apply the thumb tint. -->
+        
         <attr name="thumbTintMode">
-            <!-- The tint is drawn on top of the drawable.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the drawable with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and drawable color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
-        <!-- Drawable to use as the "track" that the switch thumb slides within. -->
+        
         <attr format="reference" name="track"/>
-        <!-- Tint to apply to the track. -->
+        
         <attr format="color" name="trackTint"/>
-        <!-- Blending mode used to apply the track tint. -->
+        
         <attr name="trackTintMode">
-            <!-- The tint is drawn on top of the drawable.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the drawable with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and drawable color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
-        <!-- Text to use when the switch is in the checked/"on" state. -->
+        
         <attr name="android:textOn"/>
-        <!-- Text to use when the switch is in the unchecked/"off" state. -->
+        
         <attr name="android:textOff"/>
-        <!-- Amount of padding on either side of text within the switch thumb. -->
+        
         <attr format="dimension" name="thumbTextPadding"/>
-        <!-- TextAppearance style for text displayed on the switch thumb. -->
+        
         <attr format="reference" name="switchTextAppearance"/>
-        <!-- Minimum width for the switch component -->
+        
         <attr format="dimension" name="switchMinWidth"/>
-        <!-- Minimum space between the switch and caption text -->
+        
         <attr format="dimension" name="switchPadding"/>
-        <!-- Whether to split the track and leave a gap for the thumb drawable. -->
+        
         <attr format="boolean" name="splitTrack"/>
-        <!-- Whether to draw on/off text. -->
+        
         <attr format="boolean" name="showText"/>
     </declare-styleable>
     <declare-styleable name="TabItem"><attr name="android:text"/><attr name="android:icon"/><attr name="android:layout"/></declare-styleable>
@@ -4513,26 +4261,17 @@
         <attr name="title"/>
         <attr name="subtitle"/>
         <attr name="android:gravity"/>
-        <!--  Specifies extra space on the left, start, right and end sides
-              of the toolbar's title. Margin values should be positive. -->
+        
         <attr format="dimension" name="titleMargin"/>
-        <!--  Specifies extra space on the start side of the toolbar's title.
-              If both this attribute and titleMargin are specified, then this
-              attribute takes precedence. Margin values should be positive. -->
+        
         <attr format="dimension" name="titleMarginStart"/>
-        <!--  Specifies extra space on the end side of the toolbar's title.
-              If both this attribute and titleMargin are specified, then this
-              attribute takes precedence. Margin values should be positive. -->
+        
         <attr format="dimension" name="titleMarginEnd"/>
-        <!--  Specifies extra space on the top side of the toolbar's title.
-              If both this attribute and titleMargin are specified, then this
-              attribute takes precedence. Margin values should be positive. -->
+        
         <attr format="dimension" name="titleMarginTop"/>
-        <!--  Specifies extra space on the bottom side of the toolbar's title.
-              If both this attribute and titleMargin are specified, then this
-              attribute takes precedence. Margin values should be positive. -->
+        
         <attr format="dimension" name="titleMarginBottom"/>
-        <!-- {@deprecated Use titleMargin} -->
+        
         <attr format="dimension" name="titleMargins"/>
         <attr name="contentInsetStart"/>
         <attr name="contentInsetEnd"/>
@@ -4542,87 +4281,68 @@
         <attr name="contentInsetEndWithActions"/>
         <attr format="dimension" name="maxButtonHeight"/>
         <attr name="buttonGravity">
-            <!-- Push object to the top of its container, not changing its size. -->
+            
             <flag name="top" value="0x30"/>
-            <!-- Push object to the bottom of its container, not changing its size. -->
+            
             <flag name="bottom" value="0x50"/>
         </attr>
-        <!-- Icon drawable to use for the collapse button. -->
+        
         <attr format="reference" name="collapseIcon"/>
-        <!-- Text to set as the content description for the collapse button. -->
+        
         <attr format="string" name="collapseContentDescription"/>
-        <!-- Reference to a theme that should be used to inflate popups
-             shown by widgets in the toolbar. -->
+        
         <attr name="popupTheme"/>
-        <!-- Icon drawable to use for the navigation button located at
-             the start of the toolbar. -->
+        
         <attr format="reference" name="navigationIcon"/>
-        <!-- Text to set as the content description for the navigation button
-             located at the start of the toolbar. -->
+        
         <attr format="string" name="navigationContentDescription"/>
-        <!-- Drawable to set as the logo that appears at the starting side of
-             the Toolbar, just after the navigation button. -->
+        
         <attr name="logo"/>
-        <!-- A content description string to describe the appearance of the
-             associated logo image. -->
+        
         <attr format="string" name="logoDescription"/>
-        <!-- A color to apply to the title string. -->
+        
         <attr format="color" name="titleTextColor"/>
-        <!-- A color to apply to the subtitle string. -->
+        
         <attr format="color" name="subtitleTextColor"/>
         <attr name="android:minHeight"/>
     </declare-styleable>
     <declare-styleable name="View">
-        <!-- Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}. -->
+        
         <attr format="dimension" name="paddingStart"/>
-        <!-- Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}. -->
+        
         <attr format="dimension" name="paddingEnd"/>
-        <!-- Boolean that controls whether a view can take focus.  By default the user can not
-             move focus to a view; by setting this attribute to true the view is
-             allowed to take focus.  This value does not impact the behavior of
-             directly calling {@link android.view.View#requestFocus}, which will
-             always request focus regardless of this view.  It only impacts where
-             focus navigation will try to move focus. -->
+        
         <attr name="android:focusable"/>
-        <!-- Deprecated. -->
+        
         <attr format="reference" name="theme"/>
-        <!-- Specifies a theme override for a view. When a theme override is set, the
-             view will be inflated using a {@link android.content.Context} themed with
-             the specified resource. -->
+        
         <attr name="android:theme"/>
     </declare-styleable>
     <declare-styleable name="ViewBackgroundHelper">
         <attr name="android:background"/>
-        <!-- Tint to apply to the background. -->
+        
         <attr format="color" name="backgroundTint"/>
 
-        <!-- Blending mode used to apply the background tint. -->
+        
         <attr name="backgroundTintMode">
-            <!-- The tint is drawn on top of the drawable.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the drawable with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and icon color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
     <declare-styleable name="ViewStubCompat">
-        <!-- Supply an identifier for the layout resource to inflate when the ViewStub
-             becomes visible or when forced to do so. The layout resource must be a
-             valid reference to a layout. -->
+        
         <attr name="android:layout"/>
-        <!-- Overrides the id of the inflated View with this value. -->
+        
         <attr name="android:inflatedId"/>
         <attr name="android:id"/>
     </declare-styleable>
