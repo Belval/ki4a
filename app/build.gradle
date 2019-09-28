@@ -47,7 +47,7 @@ android {
          * defined by the package attribute in the main/AndroidManifest.xml file.
          */
 
-        applicationId 'com.belval.ki4a'
+        applicationId 'com.staf621.ki4a'
 
         // Defines the minimum API level required to run the app.
         minSdkVersion 26

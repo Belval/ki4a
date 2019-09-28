@@ -1,4 +1,4 @@
-package com.belval.ki4a;
+package com.staf621.ki4a;
 
 import org.junit.Test;
 

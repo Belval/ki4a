@@ -38,7 +38,7 @@ INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-114:12
 INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-114:12
 INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:2:1-114:12
 	package
-		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:4:5-30
+		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:4:5-31
 		INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
 		INJECTED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -107,7 +107,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/edoua
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:19:9-35
 	android:theme
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:24:9-40
-activity#com.belval.ki4a.SplashScreenActivity
+activity#com.staf621.ki4a.SplashScreenActivity
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:25:9-33:20
 	android:label
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:27:13-45
@@ -123,19 +123,19 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:31:17-77
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:31:27-74
-activity#com.belval.ki4a.MainActivity
+activity#com.staf621.ki4a.MainActivity
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:34:9-36:48
 	android:label
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:36:13-45
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:35:13-41
-activity#com.belval.ki4a.SettingsActivity
+activity#com.staf621.ki4a.SettingsActivity
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:37:9-39:63
 	android:label
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:39:13-60
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:38:13-45
-activity#com.belval.ki4a.ForwardActivity
+activity#com.staf621.ki4a.ForwardActivity
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:40:9-43:55
 	android:label
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:42:13-49
@@ -143,7 +143,7 @@ ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:40:9-43:55
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:43:13-52
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:41:13-44
-activity#com.belval.ki4a.RouteActivity
+activity#com.staf621.ki4a.RouteActivity
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:44:9-47:55
 	android:label
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:46:13-57
@@ -151,13 +151,13 @@ ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:44:9-47:55
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:47:13-52
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:45:13-42
-service#com.belval.ki4a.ki4aService
+service#com.staf621.ki4a.ki4aService
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:49:9-51:38
 	android:enabled
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:51:13-35
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:50:13-40
-service#com.belval.ki4a.ki4aVPNService
+service#com.staf621.ki4a.ki4aVPNService
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:52:9-60:19
 	android:label
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:55:13-45
@@ -173,7 +173,7 @@ action#android.net.VpnService
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:58:17-65
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:58:25-62
-receiver#com.belval.ki4a.ki4aUpdateReceiver
+receiver#com.staf621.ki4a.ki4aUpdateReceiver
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:62:9-66:20
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:62:19-53
@@ -183,25 +183,25 @@ action#android.intent.action.MY_PACKAGE_REPLACED
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:64:17-84
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:64:25-81
-activity#com.belval.ki4a.AboutActivity
+activity#com.staf621.ki4a.AboutActivity
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:68:9-70:50
 	android:label
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:70:13-47
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:69:13-42
-activity#com.belval.ki4a.ShowLogActivity
+activity#com.staf621.ki4a.ShowLogActivity
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:71:9-73:55
 	android:label
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:73:13-52
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:72:13-44
-activity#com.belval.ki4a.KeyImport
+activity#com.staf621.ki4a.KeyImport
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:74:9-76:46
 	android:launchMode
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:76:13-43
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:75:13-38
-receiver#com.belval.ki4a.ki4aWidget
+receiver#com.staf621.ki4a.ki4aWidget
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:78:9-89:20
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:78:19-45
@@ -223,7 +223,7 @@ ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:86:13-88:60
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:88:17-57
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:87:17-58
-receiver#com.belval.ki4a.ki4aBroadcastReceiver
+receiver#com.staf621.ki4a.ki4aBroadcastReceiver
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:91:9-98:20
 	android:enabled
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:91:57-79
@@ -247,7 +247,7 @@ action#android.net.wifi.STATE_CHANGE
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:96:17-72
 	android:name
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:96:25-69
-service#com.belval.ki4a.ki4aQuickSettingsService
+service#com.staf621.ki4a.ki4aQuickSettingsService
 ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:100:9-111:19
 	android:label
 		ADDED from /home/edouard/Git/ki4a/app/src/main/AndroidManifest.xml:103:13-45

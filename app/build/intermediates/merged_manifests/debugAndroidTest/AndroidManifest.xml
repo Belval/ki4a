@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.belval.ki4a.test">
+    package="com.staf621.ki4a.test">
 
     <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="28" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.belval.ki4a"
+                     android:targetPackage="com.staf621.ki4a"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.belval.ki4a"/>
+                     android:label="Tests for com.staf621.ki4a"/>
 </manifest>

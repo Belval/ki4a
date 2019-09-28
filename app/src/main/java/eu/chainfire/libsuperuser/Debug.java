@@ -17,7 +17,7 @@
 package eu.chainfire.libsuperuser;
 
 import android.os.Looper;
-import com.belval.ki4a.MyLog;
+import com.staf621.ki4a.MyLog;
 
 /**
  * Utility class for logging and debug features that (by default) does nothing when not in debug mode

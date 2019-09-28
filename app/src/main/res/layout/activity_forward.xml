@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:descendantFocusability="afterDescendants"
         android:focusable="false"
-        class="com.belval.ki4a.ForwardList"
+        class="com.staf621.ki4a.ForwardList"
         android:layout_above="@+id/addForward"
         tools:layout="@layout/forward_item">
     </fragment>
