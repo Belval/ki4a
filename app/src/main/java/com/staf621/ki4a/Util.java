@@ -83,7 +83,7 @@ public class Util {
                 @Override
                 public void run(){
                     if(myRoot) {
-                        Shell.run("su", new String[]{myCommand}, new String[]{}, false);
+                        Shell.run("su", new String[]{myCommand}, new String[]{}, true);
                         retval[0] = 0;
                     }
                     else {
